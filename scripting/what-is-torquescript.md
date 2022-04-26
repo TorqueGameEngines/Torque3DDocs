@@ -27,6 +27,8 @@ struct PlayerData: public ShapeBaseData {
         mass = 9.0f;         // from ShapeBase
         drag = 0.3f;         // from ShapeBase
         density = 1.1f;      // from ShapeBase
+        
+        ...
 ```
 
 Instead of having to go into C++ and create new PlayerData objects or edit certain fields (such as mass), PlayerData was exposed to TorqueScript:
