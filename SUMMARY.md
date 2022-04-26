@@ -9,6 +9,12 @@
   * [Code Test](reference/api-reference/pets.md)
   * [Users](reference/api-reference/users.md)
 
+## Modules and Assets
+
+* [Modules](modules-and-assets/modules.md)
+* [Assets](modules-and-assets/assets.md)
+* [Importing](modules-and-assets/importing.md)
+
 ## 3D
 
 * [Working with 3D](3d/working-with-3d.md)
