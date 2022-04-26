@@ -18,7 +18,7 @@ More importantly, nearly all of your game play programming will be written in To
 
 As mentioned above, TorqueScript is comprised of the core C++ objects needed to make your game. For example, you will use the PlayerData structure to create player objects for your game. This structure was written in C++:
 
-```
+```cpp
 struct PlayerData: public ShapeBaseData {
         typedef ShapeBaseData Parent;
         bool renderFirstPerson;    ///< Render the player shape in first person
@@ -31,7 +31,7 @@ struct PlayerData: public ShapeBaseData {
 
 Instead of having to go into C++ and create new PlayerData objects or edit certain fields (such as mass), PlayerData was exposed to TorqueScript:
 
-```
+```cpp
 datablock PlayerData(DefaultPlayerData)
 {
         renderFirstPerson = true;

@@ -1,6 +1,6 @@
-# Code Test
+# Pets
 
-## Creating a new Test
+## Creating a new pet
 
 {% swagger baseUrl="https://api.myapi.com/v1" method="post" path="/pet" summary="Create pet." %}
 {% swagger-description %}
