@@ -39,3 +39,26 @@
 * [Other Languages](scripting/other-languages/README.md)
   * [C-Interface](scripting/c-interface.md)
 * [Navigating the BaseGame Template](scripting/navigating-the-basegame-template.md)
+
+## Tooling
+
+* [World Editor Suite](tooling/world-editor-suite.md)
+* [GUI Editor](tooling/gui-editor.md)
+
+## Animation
+
+* [Art](animation/art.md)
+* [Assets](animation/assets.md)
+* [Objects](animation/objects.md)
+
+## AI
+
+* [Navmesh](ai/navmesh.md)
+* [Objects](ai/objects.md)
+* [Scripting](ai/scripting.md)
+
+## Engine
+
+* [Introduction](engine/introduction.md)
+* [Building](engine/building.md)
+* [Source Code](engine/source-code.md)
