@@ -15,16 +15,6 @@
 * [Assets](modules-and-assets/assets.md)
 * [Importing](modules-and-assets/importing.md)
 
-## 3D
-
-* [Working with 3D](3d/working-with-3d.md)
-
-## Graphics
-
-* [Physically Based Rendering](graphics/physically-based-rendering.md)
-* [Render Bins](graphics/render-bins.md)
-* [Post FX](graphics/post-fx.md)
-
 ## Scripting
 
 * [TorqueScript](scripting/torquescript/README.md)
@@ -57,8 +47,21 @@
 * [Objects](ai/objects.md)
 * [Scripting](ai/scripting.md)
 
+## Graphics
+
+* [Physically Based Rendering](graphics/physically-based-rendering.md)
+* [Post FX](graphics/post-fx.md)
+
 ## Engine
 
 * [Introduction](engine/introduction.md)
 * [Building](engine/building.md)
-* [Source Code](engine/source-code.md)
+* [Core](engine/core/README.md)
+  * [Console](engine/core/console.md)
+  * [Platform](engine/core/platform.md)
+* [Audio](engine/audio/README.md)
+  * [SFX](engine/audio/sfx.md)
+* [Rendering](engine/rendering/README.md)
+  * [GFX](engine/rendering/gfx.md)
+  * [Render Bins](engine/rendering/render-bins.md)
+* [Physics](engine/physics.md)
