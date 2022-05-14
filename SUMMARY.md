@@ -3,11 +3,12 @@
 * [Welcome!](README.md)
 * [Quick Start](quick-start.md)
 
-## Reference
+## Getting Started
 
-* [API Reference](reference/api-reference/README.md)
-  * [Code Test](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+* [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
+* [Getting a Copy](getting-started/getting-a-copy.md)
+* [Launching the Game](getting-started/launching-the-game.md)
+* [Launching the Editors](getting-started/launching-the-editors.md)
 
 ## Modules and Assets
 
@@ -51,6 +52,12 @@
 
 * [Physically Based Rendering](graphics/physically-based-rendering.md)
 * [Post FX](graphics/post-fx.md)
+
+## Reference
+
+* [API Reference](reference/api-reference/README.md)
+  * [Code Test](reference/api-reference/pets.md)
+  * [Users](reference/api-reference/users.md)
 
 ## Engine
 
