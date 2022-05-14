@@ -7,6 +7,7 @@
 
 * [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
 * [Getting a Copy](getting-started/getting-a-copy.md)
+* [Torque Project Manager](getting-started/torque-project-manager.md)
 * [Launching the Game](getting-started/launching-the-game.md)
 * [Launching the Editors](getting-started/launching-the-editors.md)
 
