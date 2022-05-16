@@ -13,10 +13,10 @@ To understand the basics of how the engine is setup and the tools available, a s
 \
 
 
-### System Requirements
+### Minimum System Requirements
 
 **OS:** Windows 7, MacOS Catalina, Ubuntu LTS or equivalent\
-**Processor:** 1.7 GHz Processor or better\
+**Processor:** 1.6 GHz Processor or better\
 **Memory:** 1GB RAM\
 **Graphics:** DirectX 11+ or  OpenGL 4.3 supported\
 **Hard Drive:** 55mb free disk space\
