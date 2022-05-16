@@ -15,15 +15,11 @@ To understand the basics of how the engine is setup and the tools available, a s
 
 ### System Requirements
 
-**OS:** Windows XP SP3/Vista/Windows 7\
+**OS:** Windows 7, MacOS Catalina, Ubuntu LTS or equivalent\
 **Processor:** 1.7 GHz Processor or better\
-**Memory:** WinXP - 1GB RAM/WinVista, Win7 – 2GB RAM\
-**Graphics:** Graphics: DirectX 9.0c Shader 3.0 supported, Nvidia 6800 or 7300 or better, ATI Radeon X1300 or better\
-**DirectX®:** 9.0c\
-**Hard Drive:** 4 Gb free disk space\
-**Other Requirements:** Nvidia (AGEIA) PhysX
-
-\
+**Memory:** 1GB RAM\
+**Graphics:** DirectX 11+ or  OpenGL 4.3 supported\
+**Hard Drive:** 55mb free disk space\
 
 
 ### The Engine
