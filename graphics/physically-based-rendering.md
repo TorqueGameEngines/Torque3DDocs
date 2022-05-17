@@ -1,2 +1,0 @@
-# Physically Based Rendering
-

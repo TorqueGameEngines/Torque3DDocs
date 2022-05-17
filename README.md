@@ -1,21 +1,21 @@
 # Welcome!
 
-## Welcome to MyAPI
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
 
-## Want to jump right in?
+Welcome to the Torque3D Game engine documentation! Your one-stop-shop for all your learning needs!
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+## Are you a newcomer, or an old hand trying to get caught up?
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
+No problem at all! This knowledgebase is designed to walk you through all the skills and tasks you'll need to get your dream game made. All you need to do is jump into the Getting Started section and follow along. By the time you reach the end of the list, you'll be a lean, mean, game developing machine!
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-## Want to deep dive?
+## Know what you're doing and want to deep dive?
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+Say no more, friend. You can find several pages labeled as Deep Dive (convenient!) which get into the nitty-gritty how-tos and why-fors of how the engine works. At the bottom of the directory is also the Engine section which goes into the structure of the engine, how the guts works, and how you can expand and change it to fit your needs!
 
-{% content-ref url="engine/api-reference/" %}
-[api-reference](engine/api-reference/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

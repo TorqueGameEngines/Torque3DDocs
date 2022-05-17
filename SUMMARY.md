@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome!](README.md)
-* [Quick Start](quick-start.md)
 
 ## Getting Started
 
@@ -109,11 +108,6 @@
 * [Loading and Initializing a GUI](gui/loading-and-initializing-a-gui.md)
 * [Expanding a GUI via Script](gui/expanding-a-gui-via-script.md)
 * [How to Network GUIs](gui/how-to-network-guis.md)
-
-## Graphics
-
-* [Physically Based Rendering](graphics/physically-based-rendering.md)
-* [Post FX](graphics/post-fx.md)
 
 ## Engine
 
