@@ -63,15 +63,15 @@
 ## Managing Content
 
 * [Importable Content](managing-content/importable-content/README.md)
-  * [Images](managing-content/importable-content/images/README.md)
+  * [Images](managing-content/images/README.md)
     * [Format Considerations](managing-content/importable-content/images/format-considerations.md)
-    * [Importing an Image](managing-content/importable-content/images/importing-an-image.md)
-    * [Using ImageAssets](managing-content/importable-content/images/using-imageassets.md)
-  * [Shapes](managing-content/importable-content/shapes/README.md)
+    * [Importing an Image](managing-content/images/importing-an-image.md)
+    * [Using ImageAssets](managing-content/images/using-imageassets.md)
+  * [Shapes](managing-content/shapes/README.md)
     * [Format Considerations](managing-content/importable-content/shapes/format-considerations.md)
-    * [Importing an Model](managing-content/importable-content/shapes/importing-an-model.md)
-    * [Using ShapeAssets](managing-content/importable-content/shapes/using-shapeassets.md)
-    * [Editing ShapeAssets](managing-content/importable-content/shapes/editing-shapeassets.md)
+    * [Importing an Model](managing-content/shapes/importing-an-model.md)
+    * [Using ShapeAssets](managing-content/shapes/using-shapeassets.md)
+    * [Editing ShapeAssets](managing-content/shapes/editing-shapeassets.md)
 * [Dynamic Content](managing-content/dynamic-content/README.md)
   * [Decals](managing-content/dynamic-content/decals.md)
 
