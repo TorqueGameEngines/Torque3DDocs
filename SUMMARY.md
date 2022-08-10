@@ -149,6 +149,4 @@
       * [PhysX](engine/major-components-of-the-engine/physics/physics-wrapper/physx.md)
       * [Bullet](engine/major-components-of-the-engine/physics/physics-wrapper/bullet.md)
     * [Classes](engine/major-components-of-the-engine/physics/classes.md)
-* [API Reference](engine/api-reference/README.md)
-  * [Code Test](engine/api-reference/code-test.md)
-  * [Users](engine/api-reference/users.md)
+* [API Reference](https://reference.torque3d.org/coding/class/)
