@@ -1,2 +1,2 @@
-# Scene Editor
+# GUI Editor
 

@@ -1,2 +1,2 @@
-# Deep Dive: BaseGame Directory Structure
+# Navigating the BaseGame Template
 

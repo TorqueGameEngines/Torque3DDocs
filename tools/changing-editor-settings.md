@@ -1,2 +1,2 @@
-# Changing Editor Settings
+# World Editor Suite
 
