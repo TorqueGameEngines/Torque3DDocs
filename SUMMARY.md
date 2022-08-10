@@ -129,7 +129,7 @@
     * [Downloading Cmake](engine/compiling-the-engine/setup-development-environment/downloading-cmake.md)
     * [Creating a Fork on Github](engine/compiling-the-engine/setup-development-environment/creating-a-fork-on-github.md)
   * [Downloading Engine Source](engine/compiling-the-engine/downloading-engine-source.md)
-  * [Compiling](engine/compiling-the-engine/compiling/README.md)
+  * [Compiling](engine/compiling-the-engine/compiling.md)
     * [Compiling in Windows](engine/compiling-the-engine/compiling/compiling-in-windows.md)
     * [Compiling in Linux](engine/compiling-the-engine/compiling/compiling-in-linux.md)
     * [Compiling in MacOS](engine/compiling-the-engine/compiling/compiling-in-macos.md)

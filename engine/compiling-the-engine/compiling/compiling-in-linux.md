@@ -32,28 +32,7 @@ sudo apt-get install libxinerama-dev libxi-dev libxrandr-dev
 sudo apt-get install libxss-dev libglu1-mesa-dev libgtk-3-dev
 ```
 
-#### Multiarch builds <a href="#toc4" id="toc4"></a>
-
-Coming soon.
-
-```
-sudo dpkg --add-architecture i386
-sudo apt-get update
-```
-
-### Fedora <a href="#toc5" id="toc5"></a>
-
-\+ Packages for Fedora 20 and up
-
-These instructions may also work for other distributions using the RPM package manager. Let us know if you have trouble building on other distros!
-
-### OpenSUSE <a href="#toc8" id="toc8"></a>
-
-In OpenSUSE 13.2, you will need to perform a couple of additional steps as described in [this issue](https://github.com/GarageGames/Torque3D/issues/1293) to compile the engine.
-
-\+ Packages for OpenSUSE 13.2 and up
-
-### Additional Libraries <a href="#toc10" id="toc10"></a>
+#### Additional Libraries <a href="#toc10" id="toc10"></a>
 
 The file dialogs require GTK3 as well, so you will need to get the package for that if you do not already have it. The recommended command is this:
 
@@ -63,21 +42,18 @@ sudo apt-get install build-essential libgtk-3-dev
 
 ## Using git to download the source <a href="#toc11" id="toc11"></a>
 
-You need to have git installed use sudo apt-get install git
+If you followed the above instructions(or your distro already comes with git pre-installed) you can run git via the commandline by doing the following:
 
-make sure you are in the home folder cd /home/
-
-then clone the Torque 3D github repository\
-git clone [https://github.com/GarageGames/Torque3D.git](https://github.com/GarageGames/Torque3D.git) Torque3D
-
-there are two branches, master and development you can checkout these by using\
-git checkout master or git checkout development
+1. Make sure you're in the directory you want to clone the engine repository into, such as `"cd /home/gamedev/"`
+2. clone the Torque 3D github repository\
+   `git clone` [`https://github.com/GarageGames/Torque3D.git`](https://github.com/GarageGames/Torque3D.git) `Torque3D`
+3. While usually you're going to just go with the default branch, you can change what branch you're working with via `git checkout <branchname>` with branch name being `Release_4_0`or `development`
 
 ## Compiling with CMake <a href="#toc12" id="toc12"></a>
 
 ### Generate build files with CMake <a href="#toc13" id="toc13"></a>
 
-You can either use the CMake GUI to generate a new project or use CMake from the command-line. If you want to use the GUI, see [the Windows guide](http://wiki.torque3d.org/coder:compiling-in-windows#toc5) for detailed instructions. Otherwise, continue on with the instructions below.
+You can either use the CMake GUI to generate a new project or use CMake from the command-line. If you want to use the GUI, see the main guide for detailed instructions. Otherwise, continue on with the instructions below.
 
 **Do note:** Many distros have out of date builds of cmake if you get them through the main update. Torque 3D requires at least version 3.1.4 to compile. If your version is older than that, even after updating, you can go to the cmake website and either get a precompiled binary to use, or the code if you wish to compile it yourself, [here.](https://cmake.org/download/)
 
@@ -182,3 +158,6 @@ Torque 3D has a custom makefile generator known as the Project Manager, which is
 
 ./LinuxTest -dedicated -mission "levels/Empty Terrain.mis"\
 where the argument after the -mission switch is the path to the mission to load.
+
+### Compiling with VSCode
+
