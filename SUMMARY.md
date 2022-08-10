@@ -118,6 +118,7 @@
     * [C-Interface](scripting/c-interface.md)
 * [Shaders](knowledgebase/shaders.md)
 * [Terrain](knowledgebase/terrain.md)
+* [Porting a Legacy Project](knowledgebase/porting-a-legacy-project.md)
 
 ## Engine
 
