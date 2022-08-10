@@ -55,7 +55,7 @@ When you get Torque, you get everything. The entire source code is yours to modi
 If you're not the recompiling type, Torque provides a scripting engine using a custom C-like language called TorqueScript. You can create whole games without touching a line of C++. Check this out:\
 &#x20;
 
-```
+```clike
 $minion = new AIPlayer(Fubar) {
    datablock = MinionData;
 };

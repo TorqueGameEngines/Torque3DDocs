@@ -4,6 +4,15 @@
 
 * [Welcome!](README.md)
 * [Features](general/features.md)
+* [Release Notes](general/release-notes/README.md)
+  * [Version 3.6](general/release-notes/version-3.6.md)
+  * [Version 3.6.1](general/release-notes/version-3.6.1.md)
+  * [Version 3.6.2](general/release-notes/version-3.6.2.md)
+  * [Version 3.7](general/release-notes/version-3.7.md)
+  * [Version 3.8](general/release-notes/version-3.8.md)
+  * [Version 3.9](general/release-notes/version-3.9.md)
+  * [Version 3.10](general/release-notes/version-3.10.md)
+  * [Version 3.10.1](general/release-notes/version-3.10.1.md)
 
 ## Getting Started
 
