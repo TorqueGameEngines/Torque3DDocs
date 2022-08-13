@@ -10,9 +10,8 @@
 * Made BaseGame template the main/only template
 * Added Legacy Project Importer
 * Updated to D3D11 from D3D9
-* Updated GL to be 4.3
+* Updated GL to be 4.0
 * Updated TorqueScript compiler for better performance
-*
 
 ## Pull Requests Merged [source](https://github.com/TorqueGameEngines/Torque3D/tree/Release\_4\_0) <a href="#toc1" id="toc1"></a>
 
