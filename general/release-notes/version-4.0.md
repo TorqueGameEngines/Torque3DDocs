@@ -8,6 +8,7 @@
 * Switched engine over to utilize Assets and Modules
 * Switched lighting and materials to utilize PBR rendering
 * Made BaseGame template the main/only template
+* Added Assimp shape importer library
 * Added Legacy Project Importer
 * Updated to D3D11 from D3D9
 * Updated GL to be 4.0
