@@ -158,58 +158,58 @@
 149. Add Object Inheritence Acceptance Test #670
 150. BugFix: Correct the vehicle types double-tapping onAdd and onRemove #669
 151. Feature: Implement a TurretObjectType bit for typemasks #668
-152. fix fbx importer lookup for setting formatScaleFactor #667 by Azaezel was merged on Nov 11, 2021
-153. BugFix: Correct ASAN reported out of bounds reads in AssetImporter #666 by Ragora was merged on Nov 8, 2021
-154. fill out a %this variable for trigger callbacks #665 by Azaezel was merged on Nov 8, 2021
-155. Better Architecture detection strategy if compiling on Apple Silicon #664 by JeffProgrammer was merged on Nov 6, 2021
-156. \[Tokenizer] BugFix: Correct a malloc/delete mismatch #663 by Ragora was merged on Nov 7, 2021
-157. Misc asset import QOL and bugfix changes #662 by Areloch was merged on Nov 8, 2021
-158. better handle old style references to named texture targets #661 by Azaezel was merged on Nov 8, 2021
-159. new method tsstatic.getNodeTransform #660 by Azaezel was merged on Nov 8, 2021
-160. \[TAML] BugFix: Correct a delete and new\[] mismatch in tamlWriteNode #659 by Ragora was merged on Nov 3, 2021
-161. imageasset array profile fixes #658 by Azaezel was merged on Nov 3, 2021
-162. Updates asset importer and project importer to output to separate log files into tools/logs #657 by Areloch was merged on Nov 3, 2021
-163. BugFix: Correct Module deinitialization Ordering #656 by Ragora was merged on Nov 6, 2021
-164. BugFix: Correct an ASAN reported memory error caused by incorrect usage of \_\_sync\_fetch\_and\_add #655 by Ragora was merged on Nov 3, 2021
-165. BugFix: Correction for compiling on x86 Unix devices. #654 by Ragora was merged on Nov 2, 2021
-166. BugFix: Correct an invalid memory access error caused by the tab autocomplete #653 by Ragora was merged on Nov 2, 2021
-167. BugFix: Correct a crash in the variable inspector #652 by Ragora was merged on Nov 8, 2021 3
-168. BugFix: Correct an ASAN use-after-free Error in TSShapeEdit #651 by Ragora was merged on Nov 3, 2021
-169. BugFix: Correct an ASAN reported memory access error in GuiGameListMenuCtrl #649 by Ragora was merged on Nov 3, 2021
-170. BugFix: ARM Compilation #648 by Ragora was merged on Nov 1, 2021
-171. clean up more texture profile refs to kill spam #647 by Azaezel was merged on Nov 2, 2021
-172. fix material scrolling #646 by Azaezel was merged on Oct 30, 2021
-173. Misc QOL and Bugfixes for 2021/10/28 #645 by Areloch was merged on Oct 29, 2021
-174. Adjustment: Update Assimp version to 5.0.1. #644 by Ragora was merged on Oct 28, 2021
-175. BugFix: Don't assume a tooltip profile is going to be set when waking and sleeping #643 by Ragora was merged on Oct 28, 2021
-176. BugFix: Correct the usage of a local variable in a non-function scope #642 by Ragora was merged on Oct 28, 2021
-177. Feature: Properly detect ARM32/ARM64 in the CMake build process #641 by Ragora was merged on Oct 28, 2021
-178. Alpha40/ibl cleanups #640 by Azaezel was merged on Oct 28, 2021
-179. typofix for impoerter #639 by Azaezel was merged on Oct 27, 2021
-180. BugFix: Correct usage of mkdir in posixVolume.cpp #638 by Ragora was merged on Oct 26, 2021
-181. blatantly ganked from T2D; adds rotation as an option for drawbitmap #637 by Azaezel was merged on Nov 8, 2021 1
-182. addsa material.setAnimflags(LAYER,TAGS STRING); method #636 by Azaezel was merged on Oct 27, 2021
-183. BugFix: Address an error where deleting directories may result in an infinite loop #635 by Ragora was merged on Oct 26, 2021
-184. BugFix: Correct the inability to use function keys F1-F10 #634 by Ragora was merged on Oct 25, 2021
-185. BugFix: Allow the asset browser tree view to use a horizontal scroll bar #633 by Ragora was merged on Oct 25, 2021
-186. BugFix: Correct a crash caused by sfxProfile #632 by Ragora was merged on Oct 26, 2021
-187. adress gl spotlights disapearing for deferred #631 by Azaezel was merged on Oct 25, 2021
-188. This one slipped through - nextToken can't use local variable for its… #630 by JeffProgrammer was merged on Oct 19, 2021
-189. BugFix: Correct GLSL Pathing Errors in Light Rays Shader #629 by Ragora was merged on Oct 19, 2021
-190. BugFix: Correct a case where creator categories may get populated Incorrectly #628 by Ragora was merged on Oct 17, 2021
-191. sound asset followups #627 by Azaezel was merged on Oct 21, 2021 1
-192. BugFix: Correct a few memory leaks #626 by Ragora was merged on Oct 14, 2021
-193. BugFix: Correct a fatal error that may be thrown in case insensitive Unix IO #625 by Ragora was merged on Oct 21, 2021
-194. BugFix: Correct CMake errors on Windows #623 by Ragora was merged on Oct 13, 2021
-195. partial rollback of #620 to stop win-side pop ups #622 by Azaezel was merged on Oct 12, 2021
-196. update lpng #621 by Ragora was merged on Oct 13, 2021
-197. BugFix: Clear several CMake warnings. #620 by Ragora was merged on Oct 12, 2021
-198. fix opengl cubemap display #619 by Azaezel was merged on Oct 11, 2021
-199. BugFix: Correct the inability to spawn assorted objects #618 by Ragora was merged on Oct 11, 2021
-200. Adjustment: POSIX Case Insensitivty #617 by Ragora was merged on Oct 13, 2021
-201. Sound asset implements #616 by Azaezel was merged on Oct 13, 2021
-202. OpenGL Memory Info Extensions #615 by JeffProgrammer was merged on Oct 11, 2021
-203. BugFix: Correct the SelectAssetPath Window not Listing any Paths #614 by Ragora was merged on Oct 10, 202
+152. fix fbx importer lookup for setting formatScaleFactor #667
+153. BugFix: Correct ASAN reported out of bounds reads in AssetImporter #666
+154. fill out a %this variable for trigger callbacks #665
+155. Better Architecture detection strategy if compiling on Apple Silicon #664
+156. \[Tokenizer] BugFix: Correct a malloc/delete mismatch #663
+157. Misc asset import QOL and bugfix changes #662
+158. better handle old style references to named texture targets #661
+159. new method tsstatic.getNodeTransform #660
+160. \[TAML] BugFix: Correct a delete and new\[] mismatch in tamlWriteNode #659
+161. imageasset array profile fixes #658
+162. Updates asset importer and project importer to output to separate log files into tools/logs #657
+163. BugFix: Correct Module deinitialization Ordering #656
+164. BugFix: Correct an ASAN reported memory error caused by incorrect usage of \_\_sync\_fetch\_and\_add #655
+165. BugFix: Correction for compiling on x86 Unix devices. #654
+166. BugFix: Correct an invalid memory access error caused by the tab autocomplete #653
+167. BugFix: Correct a crash in the variable inspector #652
+168. BugFix: Correct an ASAN use-after-free Error in TSShapeEdit #651
+169. BugFix: Correct an ASAN reported memory access error in GuiGameListMenuCtrl #649
+170. BugFix: ARM Compilation #648
+171. clean up more texture profile refs to kill spam #647
+172. fix material scrolling #646
+173. Misc QOL and Bugfixes for 2021/10/28 #645
+174. Adjustment: Update Assimp version to 5.0.1. #644
+175. BugFix: Don't assume a tooltip profile is going to be set when waking and sleeping #643
+176. BugFix: Correct the usage of a local variable in a non-function scope #642
+177. Feature: Properly detect ARM32/ARM64 in the CMake build process #641
+178. Alpha40/ibl cleanups #640
+179. typofix for impoerter #639
+180. BugFix: Correct usage of mkdir in posixVolume.cpp #638
+181. blatantly ganked from T2D; adds rotation as an option for drawbitmap #637
+182. addsa material.setAnimflags(LAYER,TAGS STRING); method #636
+183. BugFix: Address an error where deleting directories may result in an infinite loop #635
+184. BugFix: Correct the inability to use function keys F1-F10 #634
+185. BugFix: Allow the asset browser tree view to use a horizontal scroll bar #633
+186. BugFix: Correct a crash caused by sfxProfile #632
+187. adress gl spotlights disapearing for deferred #631
+188. This one slipped through - nextToken can't use local variable for its… #630
+189. BugFix: Correct GLSL Pathing Errors in Light Rays Shader #629
+190. BugFix: Correct a case where creator categories may get populated Incorrectly #628
+191. sound asset followups #627
+192. BugFix: Correct a few memory leaks #626
+193. BugFix: Correct a fatal error that may be thrown in case insensitive Unix IO #625
+194. BugFix: Correct CMake errors on Windows #623
+195. partial rollback of #620 to stop win-side pop ups #622
+196. update lpng #621
+197. BugFix: Clear several CMake warnings. #620
+198. fix opengl cubemap display #619
+199. BugFix: Correct the inability to spawn assorted objects #618
+200. Adjustment: POSIX Case Insensitivty #617
+201. Sound asset implements #616
+202. OpenGL Memory Info Extensions #615
+203. BugFix: Correct the SelectAssetPath Window not Listing any Paths #614
 204. followups to #582 #613 by Azaezel was merged on Oct 11, 2021 1
 205. Added more tests for torquescript #612 by JeffProgrammer was merged on Oct 9, 2021
 206. Tweaks the MaterialAsset loading logic #611 by Areloch was merged on Oct 9, 2021
