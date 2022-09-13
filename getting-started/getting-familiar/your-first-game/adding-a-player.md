@@ -19,7 +19,7 @@ datablock PlayerData( CoinCollectorPlayer ) {
 
 PlayerData`(` CoinCollectorPlayer `)` here we state that we want to create a datablock of the type PlayerData, for creating new Players. We call this new datablock CoinCollectorPlayer .
 
-`renderFirstPerson` here we specify that we want the game to use a third person view when controlling this Player
+`renderFirstPerson` here we specify whether we want the game to use a model for the first person prespective
 
 `ShapeAsset` is a reference to the asset `Playerbot_shape`in the Prototyping module. We'll cover assets later in the tutorial.
 
