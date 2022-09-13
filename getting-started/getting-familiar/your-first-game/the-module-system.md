@@ -35,43 +35,39 @@ Furthermore, the `scriptFile`, `DestroyFunction` and `CreateFunction` specify ho
 ```csharp
 /// Module life-cycle
 
-function CoinCollectionModule::onCreate(%this)
-{
+function CoinCollectionModule::onCreate(%this) {
 }
 
-function CoinCollectionModule::onDestroy(%this)
-{
+function CoinCollectionModule::onDestroy(%this) {
 }
 
 /// Server life-cycle
 
-function CoinCollectionModule::initServer(%this)
-{
+function CoinCollectionModule::initServer(%this) {
 }
 
-function CoinCollectionModule::onCreateGameServer(%this)
-{
+function CoinCollectionModule::onCreateGameServer(%this) {
 }
 
-function CoinCollectionModule::onDestroyGameServer(%this)
-{
+function CoinCollectionModule::onDestroyGameServer(%this) {
 }
 
 /// Client life-cycle
 
-function CoinCollectionModule::initClient(%this)
-{
+function CoinCollectionModule::initClient(%this) {
 }
 
-function CoinCollectionModule::onCreateClientConnection(%this)
-{
+function CoinCollectionModule::onCreateClientConnection(%this) {
 }
 
-function CoinCollectionModule::onDestroyClientConnection(%this)
-{
+function CoinCollectionModule::onDestroyClientConnection(%this) {
 }
 ```
 
 This is all the life-cycle hooks we get for our module, the _Module life-cycle_ hooks are general for all modules, while the _Server_ and _Client life-cycle_ hooks are specific for `Game` modules.
+
+{% hint style="info" %}
+The primary difference between the `init` and the `on` callbacks is that e.g. `initServer` will only be called once, whereas `onCreateGameServer` will be called everytime a server is started.
+{% endhint %}
 
 That is actually the basis of creating a module, the next thing we will look at is how to create a specific gamemode and tie it into a level.
