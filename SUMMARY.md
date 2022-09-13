@@ -19,7 +19,7 @@
 
 * [Introduction](getting-started/introduction/README.md)
   * [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
-* [The Basics](getting-started/the-basics/README.md)
+* [The Basics](getting-started/the-basics.md)
   * [SimObject](getting-started/the-basics/simobject.md)
   * [SimGroup](getting-started/the-basics/simgroup.md)
   * [SceneObject](getting-started/the-basics/sceneobject.md)
