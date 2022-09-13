@@ -22,7 +22,7 @@ Nothing special is necessary in order to script with Torque3D, if the engine is 
 
 ### What is TorqueScript? <a href="#what-is-torquescript" id="what-is-torquescript"></a>
 
-TorqueScript (TS) is a C-like language. It is very basic. There are no ‘types’ in TorqueScript, everything is handled as strings or ints. One of the most interesting things about scripting in TS is that it is event driven. The engine runs the game and sends the necessary callbacks to the script interface which in turn reacts to the events.
+TorqueScript (TS) is a C-like language. It is very basic. There are no ‘types’ in TorqueScript, everything is handled as strings or ints. One of the most interesting things about scripting in TS is that it is event driven. The engine runs the game and sends the necessary callbacks to the script interface which in turn reacts to the events and vice versa.
 
 A good way to think about it is that you'd probably create a `Projectile` class in C++ and from there you'd control it's trajectory, detect collisions, render the mesh etc.\
 However, the creation of the projectile and figuring out what to do when it collides is handled quite well by script.
