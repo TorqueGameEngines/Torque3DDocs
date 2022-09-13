@@ -12,7 +12,7 @@ If you're installing Visual Studio (2022 is the recommended edition) then as lon
 
 ![](../../../.gitbook/assets/image.png)
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (3).png>)
 
 Then you'll have everything you need to compile Torque3D on Windows.
 

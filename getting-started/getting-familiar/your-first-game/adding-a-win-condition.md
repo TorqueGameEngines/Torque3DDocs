@@ -14,7 +14,7 @@ function Coin::onCollision(%this, %obj, %col, %vec, %len) {
 }
 ```
 
-Do you remember that we coupled we set the `client` variable on the Player object when we spawned it in [`spawnControlObject`](adding-a-player.md)? We had the line `%player.client = %client` which we can use now to get the client from the player (`%col`) object.
+Do you remember that we set the `client` variable on the Player object when we spawned it in [`spawnControlObject`](adding-a-player.md)? We had the line `%player.client = %client` which we can use now to get the client from the player (`%col`) object.
 
 So what's happening here? `if (Coins.getCount() <=0)`, if there are no more coins `commandToClient(%col.client, 'ShowVictory')` instruct the client to show the victory screen. Please read [client-and-server-commands.md](../../../building-your-gameplay/client-and-server-commands.md "mention")for more information about the `commandToClient` system, but the gist of it is we want to call the command `'ShowVictory'` on the `%col.client` client. The `'ShowVictory'` is **not** a regular string, it is a "tag" and writing `"ShowVictory"` instead won't work. Tag's are essentially strings that are stored in a networked  database with an ID such that we don't have to send the full `"ShowVictory"` string to the client but instead can send e.g. `42`.
 

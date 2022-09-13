@@ -27,7 +27,7 @@ Now open the Level Editor, and place a few coins, you do that by opening the Ass
 And then drag in the `Datablock` called coin inside `data/CoinCollection/server` ![](<../../../.gitbook/assets/image (2) (1).png>)
 
 The Coins will show up in the Scene Tree, group them inside a `SimGroup` called `Coins`, right click the level object and select `Add SimGroup`:\
-![](<../../../.gitbook/assets/image (10).png>)\
+![](<../../../.gitbook/assets/image (10) (1).png>)\
 And then just drag-and-drop the `StaticShape` objects into that folder:\
 ![](<../../../.gitbook/assets/image (9).png>)
 
@@ -51,7 +51,7 @@ function Coin::onCollision(%this, %obj, %col, %vec, %len) {
 
 `%col` refers to the object colliding with the coin.
 
-`%vec` is the direction of the impact vector, which tells you the direction of the impact itself.
+`%vec` is the _inverse_ direction of the impact vector, which tells you the direction of the impact itself.
 
 `%len` is the length of the impact vector, hence the force of the impact.
 
