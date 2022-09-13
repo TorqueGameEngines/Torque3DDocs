@@ -4,9 +4,6 @@ In Torque3D we call the object that you are moving when you press keys the `Cont
 
 ```csharp
 datablock PlayerData( CoinCollectorPlayer ) {
-    // We want a third person game
-    renderFirstPerson = false;
-
     // Third person shape
     ShapeAsset = "Prototyping:Playerbot_shape";
 
@@ -15,11 +12,9 @@ datablock PlayerData( CoinCollectorPlayer ) {
 };
 ```
 
-`datablock` this is very similar to a struct, basically in a datablock you define a set of default values which will get copied to the spawned objects upon creation.
+`datablock` this is very similar to a struct, basically in a datablock you define a set of default values which will get referenced by the spawned objects upon creation.
 
 PlayerData`(` CoinCollectorPlayer `)` here we state that we want to create a datablock of the type PlayerData, for creating new Players. We call this new datablock CoinCollectorPlayer .
-
-`renderFirstPerson` here we specify that we want the game to use a third person view when controlling this Player
 
 `ShapeAsset` is a reference to the asset `Playerbot_shape`in the Prototyping module. We'll cover assets later in the tutorial.
 
