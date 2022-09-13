@@ -12,6 +12,8 @@ If you have git installed, it can download and update engine builds and modules 
 
 Naturally, the first step in working with Torque and the Project Manager is to download the PM. Fortunately it's easy to get. You can acquire a copy from the releases on the github repository for your respective platform here:
 
+{% embed url="https://github.com/TorqueGameEngines/ProjectManager/releases" %}
+
 Once it's been downloaded, you can place it wherever you feel most comfortable on your machine. We would generally recommend having a sort of "gamedev" folder for organizing all your game development stuff, but ultimately what's most important is you putting it somewhere that works for you.
 
 Once it's been installed, you can get cracking utilizing it immediately, but to maximize it's efficacy, we'll want to do some prepwork on your machine to make it a fully functional development environment
