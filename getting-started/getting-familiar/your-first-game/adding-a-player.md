@@ -57,13 +57,20 @@ function CoinCollectionGameMode::spawnControlObject(%this, %client) {
 
 Now that's just a helper method, in order to actually activate it we should call it from the `onClientEnterGame` function in that same file:
 
-```csharp
-function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
-    // Set the player name based on the client's connection data
+<pre class="language-csharp"><code class="lang-csharp"><strong>function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
+</strong>    // Set the player name based on the client's connection data
     %client.setPlayerName(%client.connectData);
 
     // Call the helper function
     %this.spawnControlObject(%client);
+}</code></pre>
+
+And let's make sure to delete the player object when they leave:
+
+```csharp
+function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
+    // Remove the player object
+    %client.player.delete();
 }
 ```
 

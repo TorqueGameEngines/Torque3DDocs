@@ -75,12 +75,16 @@ function SBGUIScoreChanged(%msgType, %msgString, %clientName,
 }
 ```
 
+{% hint style="info" %}
+Here we use `detag` on the clientName, that is because the clientName is a tagged string, so we need to look up the clientName ID to get the string.
+{% endhint %}
+
 ### Adding the hooks on the server
 
 We have four different callbacks we need to implement. Let's start with the callback `MsgClientScoreChanged`, we will trigger that one whenever we pick up a coin. In `data/CoinCollection/server/coin.tscript` add:
 
 ```csharp
-messageAll('MsgClientScoreChanged', -1, getTaggedString(%col.client.playername),
+messageAll('MsgClientScoreChanged', -1, %col.client.playername,
     %col.client, %col.client.coinsFound,
     %col.client.kills, %col.client.deaths);
 ```
@@ -104,7 +108,7 @@ function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
     messageClient(
             %client, 'MsgClientWelcome',
                     "\c2Welcome to the Torque demo app %1.",
-                    getTaggedString(%client.playername),
+                    %client.playername,
                     %client,
                     %client.isAiControlled()
             );
@@ -116,7 +120,7 @@ function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
         }
 
         messageClient(%client, 'MsgClientJoin', -1,
-                    getTaggedString(%other.playername),
+                    %other.playername,
                     %other, %other.coinsFound,
                     %other.kills, %other.deaths);
     }
@@ -127,7 +131,7 @@ function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
                     "-1",
                     'MsgClientJoin',
                     "\c1 % 1 joined the game.",
-                    getTaggedString(%client.playername),
+                    %client.playername,
                     %client,
                     %client.coinsFound,
                     %client.kills, %client.deaths,
@@ -142,6 +146,7 @@ function CoinCollectionGameMode::onClientLeaveGame(%this, %client) {
                     "-1",
                     'MsgClientDrop',
                     "\c1 % 1 left the game.",
+                    %client.playername,
                     %client,
                     %client.isAiControlled()
             );
