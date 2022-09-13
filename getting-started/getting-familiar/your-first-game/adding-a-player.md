@@ -15,7 +15,7 @@ datablock PlayerData( CoinCollectorPlayer ) {
 };
 ```
 
-`datablock` this is very similar to a struct, basically in a datablock you define a set of default values which will get copied to the spawned objects upon creation.
+`datablock` this is very similar to a struct, basically in a datablock you define a set of default values which will get referenced by the spawned objects upon creation.
 
 PlayerData`(` CoinCollectorPlayer `)` here we state that we want to create a datablock of the type PlayerData, for creating new Players. We call this new datablock CoinCollectorPlayer .
 
