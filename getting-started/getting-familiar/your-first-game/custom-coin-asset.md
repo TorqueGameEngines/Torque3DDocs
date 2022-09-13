@@ -23,7 +23,7 @@ This will load all the files in as separate assets:\
 ![](<../../../.gitbook/assets/image (12).png>)
 
 Now we need to tie them together, right-click the material asset and click on `Edit Asset`\
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (14).png>)
 
 In the Material Editor, set the `Diffuse Map` to the albedo image asset, the `Normal Map` to the normal image asset and the `ORM Map` to the roughness image asset.\
 ![](<../../../.gitbook/assets/image (6) (2).png>)

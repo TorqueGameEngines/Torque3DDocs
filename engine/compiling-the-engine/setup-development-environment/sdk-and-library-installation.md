@@ -10,9 +10,9 @@ To compile on Windows, the main thing that is required is the Windows SDK.
 
 If you're installing Visual Studio (2022 is the recommended edition) then as long as you have these options enabled in the Visual Studio Installer:
 
-![](<../../../.gitbook/assets/image (2).png>)
-
 ![](../../../.gitbook/assets/image.png)
+
+![](<../../../.gitbook/assets/image (1).png>)
 
 Then you'll have everything you need to compile Torque3D on Windows.
 
@@ -63,4 +63,10 @@ The file dialogs require GTK3 as well, so you will need to get the package for t
 
 ```
 sudo apt-get install build-essential libgtk-3-dev
+```
+
+Depending on your project needs, you may need to have OpenSSL installed for libcurl support. The command line for that is here:
+
+```
+sudo apt-get install build-essential libssl-dev
 ```
