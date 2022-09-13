@@ -11,11 +11,12 @@ Before we can begin writing our game scripts, we need to set up a module. The pr
     ModuleId="CoinCollectionModule"
     VersionId="1"
     Description="Starter module for CoinCollection gameplay."
-    scriptFile="CoinCollectionModule.cs"
+    scriptFile="CoinCollectionModule"
     CreateFunction="onCreate"
     DestroyFunction="onDestroy"
     Group="Game"
     Dependencies="UI=1">
+    <!-- UI dependency is needed for the Scoreboard later on -->
     <DeclaredAssets
         canSave="true"
         canSaveDynamicFields="true"
@@ -25,7 +26,7 @@ Before we can begin writing our game scripts, we need to set up a module. The pr
 
 ```
 
-Most of this, you don’t need to concern yourself with at this moment. It’s mainly metadata about the module. The most significant pieces right now is that the `Group` is set to `Game`, this means that it will be automatically by our `main.cs` file, the game’s entrypoinnt.
+Most of this, you don’t need to concern yourself with at this moment. It’s mainly metadata about the module. The most significant pieces right now is that the `Group` is set to `Game`, this means that it will be automatically by our `main.tscript` file, the game’s entrypoinnt.
 
 Furthermore, the `scriptFile`, `DestroyFunction` and `CreateFunction` specify how our module is initialized. Let’s go ahead and add this file now:
 
