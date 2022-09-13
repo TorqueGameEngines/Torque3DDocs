@@ -18,7 +18,7 @@ _(The following steps is only necessary if you are not satisfied with just scrip
 
 #### Scripting <a href="#scripting" id="scripting"></a>
 
-Nothing special is necessary in order to script with Torque3D, if the engine is running you should be good to go. However you might want an IDE for scripting, I suggest taking a look at either [Torsion](https://github.com/TorqueGameEngines/TorsionEditor) or [IntelliJ Community](https://www.jetbrains.com/idea/download) with the [TorqueScript plugin](https://plugins.jetbrains.com/plugin/17218-torquescript-language-support).
+Nothing special is necessary in order to script with Torque3D, if the engine is running you should be good to go. However you might want an IDE for scripting, I suggest taking a look at either [Torsion](https://github.com/TorqueGameEngines/TorsionEditor/releases/tag/v1.1.392) or [IntelliJ Community](https://www.jetbrains.com/idea/download) with the [TorqueScript plugin](https://plugins.jetbrains.com/plugin/17218-torquescript-language-support).
 
 ### What is TorqueScript? <a href="#what-is-torquescript" id="what-is-torquescript"></a>
 
