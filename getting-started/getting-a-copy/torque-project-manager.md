@@ -22,19 +22,19 @@ Once it's been installed, you can get cracking utilizing it immediately, but to 
 
 While this sounds intense, really it's just installing a few common programs that help you get and use builds of the engine, namely, git and cmake.
 
-The PM utilizes both of these, as mentioned prior to fetch engine builds and modules from curated repositories, and generate compile-able engine builds, respectively. These aren't strictly necessary, and if you're comfortable with downloading and generating projects yourself without the PM doing it for you, then you're free to skip this step.
+The Project Manager utilizes git for cloning and pulling from online repositories to your local machine, and uses CMake for generating Source projects. While not strictly required, lacking either or both of these will drastically limit the functionality of the Project Manager.
 
-### git
+You can learn more about installing each of these here:
 
-Git can be most readily acquired from [here](https://git-scm.com/download/win). If you're on MacOS, and you have XCode and its dependencies installed, you're good to go. Certain distros of Linux will likewise already have git installed.
+{% content-ref url="../../engine/compiling-the-engine/setup-development-environment/downloading-git.md" %}
+[downloading-git.md](../../engine/compiling-the-engine/setup-development-environment/downloading-git.md)
+{% endcontent-ref %}
 
-Once it's installed and you do the basic setup, this end of things is good to go enough for the Project Manager. If you want to do more advanced actions, use private repositories, or submit Pull Requests, you can see the more in-depth instructions for a Development Environment in the [Engine Section](broken-reference).
+{% content-ref url="../../engine/compiling-the-engine/setup-development-environment/cmake.md" %}
+[cmake.md](../../engine/compiling-the-engine/setup-development-environment/cmake.md)
+{% endcontent-ref %}
 
-### Cmake
-
-Cmake can be gotten from [here](https://cmake.org/download/). Cmake is used to generate and build projects that utilize an Engine Build that has the source code. For Engine Builds that utilize precompiled binaries, it isn't actually required.&#x20;
-
-Like with the git section above, for more info on how to use Cmake in a more advanced capacity, you can find the more in-depth instructions in the [Engine Section](broken-reference).
+Once you have these downloaded and installed, that's good enough for running the Project Manager, and you can continue below.
 
 ## Getting Started
 
