@@ -153,7 +153,7 @@
 * [Compiling the Engine](engine/compiling-the-engine/README.md)
   * [Setup Development Environment](engine/compiling-the-engine/setup-development-environment/README.md)
     * [SDK and Library Installation](engine/compiling-the-engine/setup-development-environment/sdk-and-library-installation.md)
-    * [Git](engine/compiling-the-engine/setup-development-environment/git.md)
+    * [Git](engine/compiling-the-engine/setup-development-environment/downloading-git.md)
     * [Downloading Cmake](engine/compiling-the-engine/setup-development-environment/downloading-cmake.md)
     * [Creating a Fork on Github](engine/compiling-the-engine/setup-development-environment/creating-a-fork-on-github.md)
   * [Downloading Engine Source](engine/compiling-the-engine/downloading-engine-source.md)
