@@ -38,7 +38,7 @@ Once you have these downloaded and installed, that's good enough for running the
 
 ## Getting Started
 
-Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
 ### Interface
 
@@ -72,7 +72,7 @@ Once you have a Engine Build downloaded, you can create a Project, but first we'
 
 ### Modules
 
-<img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original">
 
 For a full explination of what Modules(and the Assets they contain) are, you can check the Modules section of the documentation. But for the purposes of the Project Manager, Modules are self-contained chunks of content and code that are easily installed and managed for your projects.
 

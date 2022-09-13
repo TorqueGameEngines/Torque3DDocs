@@ -17,11 +17,7 @@ echo(%obj.tsisspecial); //outputs "Is it now?"
 
 We can use this to keep track on how many coins each client has picked up!
 
-```csharp
-%col.client.coinsfound++; // Automatically starts at 0
-```
-
-And remove the `$CoinsFound` global, so now the file `data/CoinCollection/server/coin.tscript` would look like this:
+Remove the `$CoinsFound` global, and change the `onCollision` callback in  `data/CoinCollection/server/coin.tscript` to look like this:
 
 ```csharp
 function Coin::onCollision(%this, %obj, %col, %vec, %len) {

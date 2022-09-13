@@ -4,7 +4,7 @@ A gamemode is a feature provided by the `core` modules, as part of the normal le
 
 Before you dive into this part of the tutorial, make sure to create an empty level in the CoinCollection module. Open the [World Editor](../../launching-the-game/launching-the-editors.md), click on `File` in the top-left toolbar and choose `New Level` then click `Save Level` and make sure to place it in our CoinCollection module like this:
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](<../../../.gitbook/assets/image (7).png>)
 
 ### The game mode
 

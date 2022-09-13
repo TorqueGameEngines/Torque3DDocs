@@ -56,7 +56,7 @@ Github can be acquired [here.](https://desktop.github.com)
 
 Github Desktop is convenient because, as per the name, github has integrations directly with it. If you have Desktop installed, then it's possible for you to initiate a clone or pull directly from the github interface:
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (2).png>)
 
 </details>
 
