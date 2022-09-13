@@ -14,7 +14,7 @@ Apart from the advanced deferred rendering model and the physics and all the oth
 
 _(The following steps is only necessary if you are not satisfied with just scripting and at some point want more than that. If you are only here for the scripting, the binary files in the repo will be enough.)_
 
-**Before you** [download the repo](http://github.com/TorqueGameEngines/Torque3D) you should be sure to setup your environment correctly! **First** do you have an IDE (Integrated Development Environment)? No? If you are running Windows, you should go ahead and download [Visual Studio](https://visualstudio.microsoft.com/vs/). **Now**, you need to download the [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk/) or else you can’t compile the engine. If you plan to be using the physics, you will need the [PhysX SDK](http://www.nvidia.com/object/physx\_downloads.html) as well.
+**Before you** [download the repo](http://github.com/TorqueGameEngines/Torque3D) you should be sure to setup your environment correctly! **First** do you have an IDE (Integrated Development Environment)? No? If you are running Windows, you should go ahead and download [Visual Studio](https://visualstudio.microsoft.com/vs/). **Now**, you need to download the [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk/) or else you can’t compile the engine. If you plan to use the extended physics plugins instead of the stock solution, you will need to enable Bullet (included in the download) or physX. If using physX, be aware you will need it's [SDK ](http://www.nvidia.com/object/physx\_downloads.html)as well.
 
 #### Scripting <a href="#scripting" id="scripting"></a>
 
