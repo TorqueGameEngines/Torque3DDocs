@@ -38,7 +38,7 @@ Like with the git section above, for more info on how to use Cmake in a more adv
 
 ## Getting Started
 
-Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
 ### Interface
 
