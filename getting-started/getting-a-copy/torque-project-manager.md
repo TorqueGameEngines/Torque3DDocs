@@ -36,7 +36,7 @@ Like with the git section above, for more info on how to use Cmake in a more adv
 
 ## Getting Started
 
-Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 ### Interface
 
@@ -70,7 +70,7 @@ Once you have a Engine Build downloaded, you can create a Project, but first we'
 
 ### Modules
 
-<img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original">
 
 For a full explination of what Modules(and the Assets they contain) are, you can check the Modules section of the documentation. But for the purposes of the Project Manager, Modules are self-contained chunks of content and code that are easily installed and managed for your projects.
 
@@ -82,7 +82,7 @@ Once you have downloaded modules, they are "Available", which will be important 
 
 ### Projects
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 A project is, ultimately, your game. When creating a new one, you'll not only define the name and destination, but the Engine Build as well. If the build is a Source build, then you'll have additional prompts for for the Generator(what IDE/code platform Cmake uses to generate) as well as various Cmake flags.
 
