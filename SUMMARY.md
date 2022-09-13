@@ -19,7 +19,12 @@
 
 * [Introduction](getting-started/introduction/README.md)
   * [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
-* [The Basics](getting-started/the-basics.md)
+* [The Basics](getting-started/the-basics/README.md)
+  * [SimObject](getting-started/the-basics/simobject.md)
+  * [SimGroup](getting-started/the-basics/simgroup.md)
+  * [SceneObject](getting-started/the-basics/sceneobject.md)
+  * [Scene](getting-started/the-basics/scene.md)
+  * [Datablocks](getting-started/the-basics/datablocks.md)
 * [Getting Familiar](getting-started/getting-familiar/README.md)
   * [Getting a Copy](getting-started/getting-a-copy/README.md)
     * [Torque Project Manager](getting-started/getting-a-copy/torque-project-manager.md)
