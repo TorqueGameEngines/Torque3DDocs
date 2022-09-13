@@ -264,6 +264,18 @@ function showScoreBoard(%val) {
 }
 ```
 
+Now, we need to push this ActionMap on top of what keybinds we already have. We can do that in `data/CoinCollection/CoinCollection.tscript`, whenever a client connects or disconnects to a server:
+
+```csharp
+function CoinCollection::onCreateClientConnection(%this) {
+    CoinCollectionMoveMap.push();
+}
+
+function CoinCollection::onDestroyClientConnection(%this) {
+    CoinCollectionMoveMap.pop();
+}
+```
+
 Now the final thing is we need to execute all of these scripts we added if you haven't already, in `data/CoinCollection/CoinCollection.tscript`:
 
 ```csharp
