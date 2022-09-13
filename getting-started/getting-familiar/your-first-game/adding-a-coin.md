@@ -22,7 +22,7 @@ function CoinCollection::onCreateGameServer(%this) {
 }
 ```
 
-Now open the Level Editor, and place a few coins, you do that by opening the Asset Editor![](<../../../.gitbook/assets/image (8).png>)
+Now open the Level Editor, and place a few coins, you do that by opening the Asset Editor![](<../../../.gitbook/assets/image (8) (1).png>)
 
 And then drag in the `Datablock` called coin inside `data/CoinCollection/server` ![](<../../../.gitbook/assets/image (2) (1).png>)
 

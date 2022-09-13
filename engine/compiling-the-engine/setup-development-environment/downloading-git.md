@@ -40,7 +40,7 @@ GUI Clients can make working with git significantly easier than doing it all by 
 
 Acquirable [here](https://tortoisegit.org/download/) tortisegit is powerful due to a simple interface that can integrate into the Windows shell. Meaning that you can do git actions directly from the RMB shell menu, like so:
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 
 This can drastically improve iteration time.
 
@@ -56,7 +56,7 @@ Github can be acquired [here.](https://desktop.github.com)
 
 Github Desktop is convenient because, as per the name, github has integrations directly with it. If you have Desktop installed, then it's possible for you to initiate a clone or pull directly from the github interface:
 
-![](<../../../.gitbook/assets/image (6) (2).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
 </details>
 

@@ -38,7 +38,7 @@ Once you have these downloaded and installed, that's good enough for running the
 
 ## Getting Started
 
-Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
+Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 ### Interface
 
@@ -84,7 +84,7 @@ Once you have downloaded modules, they are "Available", which will be important 
 
 ### Projects
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 A project is, ultimately, your game. When creating a new one, you'll not only define the name and destination, but the Engine Build as well. If the build is a Source build, then you'll have additional prompts for for the Generator(what IDE/code platform Cmake uses to generate) as well as various Cmake flags.
 
