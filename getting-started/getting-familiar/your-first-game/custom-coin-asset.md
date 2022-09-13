@@ -15,7 +15,7 @@ And extract it into `data/CoinCollection/objects/korkCoin` such that you get the
   * korkCoin\_r.png
 
 Then open up the World Editor and find the Asset Browser:\
-![](<../../../.gitbook/assets/image (1).png>)\
+![](<../../../.gitbook/assets/image (1) (1).png>)\
 Navigate to `data/CoinCollection/objects/korkCoin` and click on the exclamation mark:\
 ![](<../../../.gitbook/assets/image (5).png>)
 
@@ -23,10 +23,10 @@ This will load all the files in as separate assets:\
 ![](<../../../.gitbook/assets/image (12).png>)
 
 Now we need to tie them together, right-click the material asset and click on `Edit Asset`\
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (1).png>)
 
 In the Material Editor, set the `Diffuse Map` to the albedo image asset, the `Normal Map` to the normal image asset and the `ORM Map` to the roughness image asset.\
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 Then click the save button, and confirm that everything looks right by dragging a "korkCoin\_shape" asset into the scene.
 
