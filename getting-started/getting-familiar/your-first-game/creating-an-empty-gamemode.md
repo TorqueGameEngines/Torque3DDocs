@@ -1,6 +1,6 @@
 # Creating an empty gamemode
 
-A gamemode is a feature in the `core` modules, essentially you can attach a game mode to specific [levels](../../../knowledgebase/scenes-and-levels/) and then whenever you load that level, the gamemode will be activated.
+A gamemode is a feature provided by the `core` modules, as part of the normal level load and initialization process. It means you can attach a game mode to specific levels and then whenever you load that [level](../../../knowledgebase/scenes-and-levels/), the gamemode will be activated.
 
 Before you dive into this part of the tutorial, make sure to create an empty level in the CoinCollection module. Open the [World Editor](../../launching-the-game/launching-the-editors.md), click on `File` in the top-left toolbar and choose `New Level` then click `Save Level` and make sure to place it in our CoinCollection module like this:
 
