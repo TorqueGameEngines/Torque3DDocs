@@ -16,7 +16,7 @@ datablock PlayerData( CoinCollectorPlayer ) {
 
 PlayerData`(` CoinCollectorPlayer `)` here we state that we want to create a datablock of the type PlayerData, for creating new Players. We call this new datablock CoinCollectorPlayer .
 
-`ShapeAsset` is a reference to the asset `Playerbot_shape`in the Prototyping module. We'll cover assets later in the tutorial.
+`ShapeAsset` here it is a reference to the asset `Playerbot_shape`in the Prototyping module. But it could be set to any ShapeAsset in any module. We'll cover assets later in the tutorial.
 
 `cameraMaxDist` defines the maximum distance from the Player shape to the `Camera` this will essentially allow us to zoom out a bit.
 
@@ -41,7 +41,8 @@ function CoinCollectionGameMode::spawnControlObject(%this, %client) {
     }
     MissionCleanup.add(%player);
 
-    // Place it at the center of the world, this is a pretty simple "spawn placement"
+    // Place it at the center of the world with a default rotation, 
+    // this is a pretty simple "spawn placement"
     %spawnTransform = "0 0 1 0 0 0 0 0";
     %player.setTransform(%spawnTransform);
     
@@ -55,7 +56,7 @@ function CoinCollectionGameMode::spawnControlObject(%this, %client) {
 }
 ```
 
-Now that's just a helper method, in order to actually activate it we should call it from the `onClientEnterGame` function in that same file:
+Now that's just a helper method, in order to actually activate it we should call it from the `onClientEnterGame` function that we will add in that same file:
 
 <pre class="language-csharp"><code class="lang-csharp"><strong>function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
 </strong>    // Set the player name based on the client's connection data

@@ -2,7 +2,7 @@
 
 [Modules ](../../../knowledgebase/modules/)were introduced in Torque3D 4.0, by using modules you can easily isolate your changes in a dedicated package. Module system also gives you a nice way of load/unloading packages of scripts and distribute it for others to use.
 
-Before we can begin writing our game scripts, we need to set up a module. The process is simple, create a new folder `data/CoinCollectionModule` and inside that folder add two files.
+Before we can begin writing our game scripts, we need to set up a module. The process is simple, create a new folder `data/CoinCollection` and inside that folder add two files.
 
 **data/CoinCollection/CoinCollection.module**
 
@@ -11,7 +11,7 @@ Before we can begin writing our game scripts, we need to set up a module. The pr
     ModuleId="CoinCollectionModule"
     VersionId="1"
     Description="Starter module for CoinCollection gameplay."
-    scriptFile="CoinCollectionModule"
+    scriptFile="CoinCollection"
     CreateFunction="onCreate"
     DestroyFunction="onDestroy"
     Group="Game"
