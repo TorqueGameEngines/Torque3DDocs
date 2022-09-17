@@ -1,6 +1,6 @@
 # Adding some effects
 
-The easiest way to make the game [POP](https://theoatmeal.com/comics/design\_hell) is to add some particle effects when we pick up the coins. Let's add the basic skeleton of a particle effect to the `data/CoinCollection/server/coin.datablock.tscript` file:
+The easiest way to make the game [POP](https://theoatmeal.com/comics/design\_hell) is to add some particle effects when we pick up the coins. Let's add the basic skeleton of a particle effect to the `data/CoinCollection/datablocks/coin.tscript` file:
 
 ```csharp
 datablock ParticleData(CoinParticle : DefaultParticle)

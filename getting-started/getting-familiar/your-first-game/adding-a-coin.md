@@ -4,7 +4,7 @@ Let's create some coins that we can pick up!
 
 ### Coin Shapes
 
-First we need a datablock for the Coin objects, we'll use a simple `StaticShape` type of objects, create the file `data/CoinCollection/server/coin.datablock.tscript` with the following contents:
+First we need a datablock for the Coin objects, we'll use a simple `StaticShape` type of objects, create the file `data/CoinCollection/datablocks/coin.tscript` with the following contents:
 
 ```csharp
 datablock StaticShapeData( Coin ) {
@@ -17,8 +17,8 @@ And as usual, remember to register the datablock in `data/CoinCollection/CoinCol
 
 ```csharp
 function CoinCollection::onCreateGameServer(%this) {
-    %this.registerDatablock("./server/coin.datablock.tscript");
-    %this.registerDatablock("./server/player.datablock.tscript");
+    %this.registerDatablock("./datablocks/coin.tscript");
+    %this.registerDatablock("./datablocks/player.tscript");
 }
 ```
 

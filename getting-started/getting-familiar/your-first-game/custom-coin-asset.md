@@ -31,7 +31,7 @@ In the Material Editor, set the `Diffuse Map` to the albedo image asset, the `No
 
 Then click the save button, and confirm that everything looks right by dragging a "korkCoin\_shape" asset into the scene.
 
-Finally, open up `data/CoinCollection/server/coin.datablock.tscript` and change the `ShapeAsset` of your Coin datablock to this newly imported shape:
+Finally, open up `data/CoinCollection/datablocks/coin.tscript` and change the `ShapeAsset` of your Coin datablock to this newly imported shape:
 
 ```csharp
 datablock StaticShapeData( Coin ) {

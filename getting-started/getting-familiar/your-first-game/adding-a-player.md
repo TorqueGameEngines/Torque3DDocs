@@ -1,6 +1,6 @@
 # Adding a Player
 
-In Torque3D we call the object that you are moving when you press keys the `ControlObject` and the `Player` is one instance of such a ControlObject. So, let's define a `PlayerData` datablock, place the following in the file `data/CoinCollection/server/player.datablock.tscript`:
+In Torque3D we call the object that you are moving when you press keys the `ControlObject` and the `Player` is one instance of such a ControlObject. So, let's define a `PlayerData` datablock, place the following in the file `data/CoinCollection/datablocks/player.tscript`:
 
 ```csharp
 datablock PlayerData( CoinCollectorPlayer ) {
@@ -24,7 +24,7 @@ And we need to register this datablock, do this in the `onCreateGameServer` func
 
 ```csharp
 function CoinCollection::onCreateGameServer(%this) {
-    %this.registerDatablock("./server/player.datablock.tscript");
+    %this.registerDatablock("./datablocks/player.tscript");
 }
 ```
 
