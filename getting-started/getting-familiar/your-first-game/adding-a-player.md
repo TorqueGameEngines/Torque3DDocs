@@ -28,7 +28,9 @@ function CoinCollection::onCreateGameServer(%this) {
 }
 ```
 
+{% hint style="info" %}
 We use the method  `registerDatablock` because the `core`module has a lot of clever logic about loading/unloading/updating datablocks which we can't take advantage of if we just use the `exec` function.
+{% endhint %}
 
 Now we have a `PlayerData` that we can use, but in order to actually use it, we have to create a `Player` instance whenever a player enters the game. We do that in `data/CoinCollection/server/gamemode.tscript`, first let's create a helper method that creates the `Player` using the `CoinCollectorPlayer` datablock and assigns it as the client's Control Object:
 

@@ -38,7 +38,7 @@ Once you have these downloaded and installed, that's good enough for running the
 
 ## Getting Started
 
-Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+Once you launch the Torque Project Manager, you'll find a view like this:<img src="../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
 ### Interface
 

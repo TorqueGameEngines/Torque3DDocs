@@ -41,7 +41,12 @@ function CoinCollection::initServer(%this) {
 }
 ```
 
-Now, we need to associate our gamemode with the level, we can do that by setting the gameModeName of the level object to `CoinCollectionGameMode`![](<../../../.gitbook/assets/image (11) (1).png>)
+Now, we need to associate our gamemode with the level. First select the scene object in the scene tree:\
+![](../../../.gitbook/assets/image.png)
+
+Then set the gameModeName of the scene object to `CoinCollectionGameMode`:
+
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 Remember to save your level.
 

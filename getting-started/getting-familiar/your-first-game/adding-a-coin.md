@@ -24,7 +24,9 @@ function CoinCollection::onCreateGameServer(%this) {
 
 Now open the Level Editor, and place a few coins, you do that by opening the Asset Editor![](<../../../.gitbook/assets/image (8) (1).png>)
 
-And then drag in the `Datablock` called coin inside `data/CoinCollection/server` ![](<../../../.gitbook/assets/image (2) (1).png>)
+And then drag in the `Datablock` called "coin" (inside `data/CoinCollection/datablocks`) into the 3d scene window:
+
+![](<../../../.gitbook/assets/image (16).png>)
 
 The Coins will show up in the Scene Tree, group them inside a `SimGroup` called `Coins`, right click the level object and select `Add SimGroup`:\
 ![](<../../../.gitbook/assets/image (10).png>)\
