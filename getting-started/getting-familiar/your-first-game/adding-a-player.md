@@ -69,7 +69,7 @@ Now that's just a helper method, in order to actually activate it we should call
 And let's make sure to delete the player object when they leave:
 
 ```csharp
-function CoinCollectionGameMode::onClientEnterGame(%this, %client) {
+function CoinCollectionGameMode::onClientLeaveGame(%this, %client) {
     // Remove the player object
     %client.player.delete();
 }

@@ -8,7 +8,7 @@ Before we can begin writing our game scripts, we need to set up a module. The pr
 
 ```xml
 <ModuleDefinition
-    ModuleId="CoinCollection"
+    ModuleId="CoinCollectionModule"
     VersionId="1"
     Description="Starter module for CoinCollection gameplay."
     scriptFile="CoinCollection"
@@ -35,32 +35,32 @@ Furthermore, the `scriptFile`, `DestroyFunction` and `CreateFunction` specify ho
 ```csharp
 /// Module life-cycle
 
-function CoinCollection::onCreate(%this) {
+function CoinCollectionModule::onCreate(%this) {
 }
 
-function CoinCollection::onDestroy(%this) {
+function CoinCollectionModule::onDestroy(%this) {
 }
 
 /// Server life-cycle
 
-function CoinCollection::initServer(%this) {
+function CoinCollectionModule::initServer(%this) {
 }
 
-function CoinCollection::onCreateGameServer(%this) {
+function CoinCollectionModule::onCreateGameServer(%this) {
 }
 
-function CoinCollection::onDestroyGameServer(%this) {
+function CoinCollectionModule::onDestroyGameServer(%this) {
 }
 
 /// Client life-cycle
 
-function CoinCollection::initClient(%this) {
+function CoinCollectionModule::initClient(%this) {
 }
 
-function CoinCollection::onCreateClientConnection(%this) {
+function CoinCollectionModule::onCreateClientConnection(%this) {
 }
 
-function CoinCollection::onDestroyClientConnection(%this) {
+function CoinCollectionModule::onDestroyClientConnection(%this) {
 }
 ```
 
