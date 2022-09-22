@@ -299,7 +299,7 @@ function CoinCollection::initClient(%this) {
     %this.queueExec("./client/gui/scoreBoard.tscript");
 
     %this.queueExec("./client/inputCommands.tscript");
-    %this.queueExec("./client/moveMap.tscript");
+    %this.queueExec("./client/actionMap.tscript");
     %this.queueExec("./client/commands.tscript");
 }
 ```
