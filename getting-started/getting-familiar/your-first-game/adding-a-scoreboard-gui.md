@@ -191,8 +191,7 @@ I wont spend a lot of time with the profiles even tho they are quite important. 
 In `data/CoinCollection/client/gui/customProfiles.cs` add the following snippet:
 
 ```csharp
-singleton GuiControlProfile (ScoreBoardProfile)
-{
+singleton GuiControlProfile(ScoreBoardProfile : GuiDefaultProfile) {
     opaque = "1";
     fillColor = "0 0 0 200";
     fillColorHL = "0 0 0 200";
@@ -200,9 +199,24 @@ singleton GuiControlProfile (ScoreBoardProfile)
     borderThickness = "5";
     border = "1";
 };
+
+singleton GuiControlProfile(ScoreBoardTextBoldProfile : GuiDefaultProfile) {
+    fontType = "Arial Bold";
+    fontColor = "255 255 255 255";
+};
+
+singleton GuiControlProfile(ScoreBoardTextNormalProfile : GuiDefaultProfile) {
+    fontType = "Arial";
+    fontColor = "255 255 255 255";
+};
+
+singleton GuiControlProfile(ScoreBoardScrollProfile : GuiDefaultProfile) {
+    fontType = "Arial Bold";
+    fontColor = "255 255 255 255";
+};
 ```
 
-This should be pretty easy to understand. All controls using this profile has a black background which is transparent and the border is 5 px wide, black and not transparent.
+This should be pretty easy to understand. All controls using the "ScoreBoardProfile" has a black background which is transparent and the border is 5 px wide, black and not transparent.
 
 There is alot more settings that can be played with, for setting text color bevel etc.. This is not within the scope of this tutorial unfortunately!
 
