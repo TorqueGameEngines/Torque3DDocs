@@ -37,7 +37,7 @@ This code will create a new control with a bitmap border inside, and a bitmap in
 
 ## The Scoreboard GUI
 
-I prefer writing GUIs in script because the editor feels a bit clumsy to me. Let's start by creating the baseline GUI file in `data/CoinCollection/client/scoreBoard.gui`:
+I prefer writing GUIs in script because the editor feels a bit clumsy to me. Let's start by creating the baseline GUI file in `data/CoinCollection/client/gui/scoreBoard.gui`:
 
 ```csharp
 new GuiControl(ScoreBoardGUI) {
@@ -212,7 +212,7 @@ Now we need to add some functionality to the scoreboard!
 
 **First we should be able to see it shouldn’t we?**
 
-At the bottom of `data/CoinCollection/client/gui/scoreboardGUI.tscript` add the following code:
+At the bottom of `data/CoinCollection/client/gui/scoreBoard.tscript` add the following code:
 
 ```csharp
 //-----------------------------------------------------------------------------
