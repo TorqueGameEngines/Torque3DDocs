@@ -17,9 +17,9 @@ To understand the basics of how the engine is setup and the tools available, a s
 
 **OS:** Windows 7, MacOS Catalina, Ubuntu LTS or equivalent\
 **Processor:** 1.6 GHz Processor or better\
-**Memory:** 1GB RAM\
+**Memory:** 3GB RAM\
 **Graphics:** DirectX 11+ or  OpenGL 4.3 supported\
-**Hard Drive:** 55mb free disk space\
+**Hard Drive:** 3GB free disk space (less for binary only solutions)\
 
 
 ### The Engine
@@ -35,12 +35,18 @@ Do not be intimidated. This documentation will show you how to create games with
 \
 
 
-### Toolbox
+### Project Manager
 
-The first place to start using Torque 3D is the Torque Toolbox. This is the main application that launches Torque 3D. The Torque Toolbox acts as the central hub of T3D game development.
+The first place to start using Torque 3D is the Project manager. This is the main application that downloads Torque3D and launches Torque Projects. The Project Manager is the central hub of T3D game development.
 
 \
-The Toolbox allows you to create blank projects, generate new projects based on templates and genre kits, and modify an existing game with the GUI and World Editors. From inside the interface, you can launch the demos that ship with the engine. Toolbox also provides a direct link to access the documentation included with the engine.
+The Project Manager allows you to download existing Torque engines from the official repositories, or you can add your own fork or local folder as the engine build.&#x20;
+
+\
+One important part of the Project Manager is to Add or download Torque modules, which can be as large as full game templates and as small as a small graphics asset pack.
+
+\
+This allows you to create new projects based on Templates and Modules, which may also come in the form of Genre Kits. From inside the Project Manager, you can launch the demos that can be downloaded with the engine. The Project Manager also provides a direct link to access the documentation included with the engine.
 
 \
 
@@ -73,13 +79,10 @@ Learning to work with Torque 3D editors is a large part of your initial experien
 
 ### The Asset Pipeline
 
-You would not have much of a game without models, textures, and other art assets. For Torque 3D, the preferred file format for 3D art assets is COLLADA.
+You would not have much of a game without models, textures, and other art assets. For Torque 3D, one of the preferred file format for 3D art assets is COLLADA, however Torque use the Open Asset Import Library so other formats such as FBX also work, many other formats have been less tested but many work for simple models quickly and easily.
 
 \
-From the COLLADA website: "**COLLADA** is a **COLLA**borative **D**esign **A**ctivity for establishing an open standard digital asset schema for interactive 3D applications." In-other-words, it is a 3D model file format supported by most major art applications used to make content for games. You can create a model in 3D Studio Max, Maya, Blender, or any other 3D editor that supports the COLLADA format.
-
-\
-For those of you familiar with previous Torque engines, you can still import DTS (static models) and DSQ (animation data) files for your 3D objects. This includes static shapes, players, buildings, and props. If you already have a library of DTS and DSQs, feel free to use them in Torque 3D. From this point on, we recommend you transition to the COLLADA open standard for new art assets.
+For those of you familiar with previous Torque engines, you can still import DTS (static models) and DSQ (animation data) files for your 3D objects. This includes static shapes, players, buildings, and props. If you already have a library of DTS and DSQs, feel free to use them in Torque 3D. From this point on however we recommend you transition to the new formats for new art assets going forward.
 
 \
 

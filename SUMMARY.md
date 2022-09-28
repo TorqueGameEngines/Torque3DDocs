@@ -71,6 +71,7 @@
     * [Mounting Shapes](knowledgebase/art/3d-art/mounting-shapes.md)
     * [Animation](knowledgebase/art/3d-art/animation.md)
     * [Player Setup](knowledgebase/art/3d-art/player-setup.md)
+    * [Blender -> Torque3D Pipeline](knowledgebase/art/3d-art/blender-greater-than-torque3d-pipeline.md)
   * [2D Art](knowledgebase/art/2d-art/README.md)
     * [Working with Adobe Substance](knowledgebase/art/2d-art/working-with-adobe-substance.md)
 * [Assets](knowledgebase/assets/README.md)
