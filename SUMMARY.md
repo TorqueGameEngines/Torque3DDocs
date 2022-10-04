@@ -44,6 +44,10 @@
     * [Keeping the scoreboard up-to-date](getting-started/getting-familiar/your-first-game/keeping-the-scoreboard-up-to-date.md)
   * [Deep Dive: BaseGame Directory Structure](scripting/deep-dive-basegame-directory-structure.md)
 
+## Lessons
+
+* [Page 1](lessons/page-1.md)
+
 ## Knowledgebase
 
 * [Best Practices](knowledgebase/best-practices.md)
