@@ -1,7 +1,7 @@
 # Version 4.0.1
 
 * [GitHub release](https://github.com/TorqueGameEngines/Torque3D/releases/tag/v4.0)
-* [Release announcement](https://torque3d.org/forums/topic/5011-torque-3d-40-released/)
+* [Release announcement](https://torque3d.org/forums/topic/5843-torque3d-401-released/)
 
 ## Notes
 
