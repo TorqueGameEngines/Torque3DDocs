@@ -5,6 +5,7 @@
 * [Welcome!](README.md)
 * [Features](general/features.md)
 * [Release Notes](general/release-notes/README.md)
+  * [Version 4.0.1](general/release-notes/version-4.0.1.md)
   * [Version 4.0](general/release-notes/version-4.0.md)
   * [Version 3.10.1](general/release-notes/version-3.10.1.md)
   * [Version 3.10](general/release-notes/version-3.10.md)

@@ -14,7 +14,7 @@
 * Updated GL to be 4.0
 * Updated TorqueScript compiler for better performance
 
-## Pull Requests Merged [source](https://github.com/TorqueGameEngines/Torque3D/tree/Release\_4\_0) <a href="#toc1" id="toc1"></a>
+## Pull Requests Merged [source](https://github.com/TorqueGameEngines/Torque3D/releases/tag/v4.0) <a href="#toc1" id="toc1"></a>
 
 * Alpha40/ts static cleanup #840
 * tsstatic aug cleanups #839
