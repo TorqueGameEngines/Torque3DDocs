@@ -15,14 +15,14 @@ And extract it into `data/CoinCollection/objects/korkCoin` such that you get the
   * korkCoin\_orm.png
 
 Then open up the World Editor and find the Asset Browser:\
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)\
+![](<../../../.gitbook/assets/image (1) (3).png>)\
 Navigate to `data/CoinCollection/objects/korkCoin` and click on the exclamation mark:\
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
 This will load all the files in as separate assets:\
 ![](<../../../.gitbook/assets/image (14).png>)
 
-![](<../../../.gitbook/assets/image (5) (2).png>)\
+![](<../../../.gitbook/assets/image (5).png>)\
 Now we need to tie them together, right-click the material asset and click on `Edit Asset`\
 
 

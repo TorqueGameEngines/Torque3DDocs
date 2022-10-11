@@ -5,7 +5,6 @@
 * [Welcome!](README.md)
 * [Features](general/features.md)
 * [Release Notes](general/release-notes/README.md)
-  * [Version 4.0.1](general/release-notes/version-4.0.1.md)
   * [Version 4.0](general/release-notes/version-4.0.md)
   * [Version 3.10.1](general/release-notes/version-3.10.1.md)
   * [Version 3.10](general/release-notes/version-3.10.md)
@@ -20,6 +19,9 @@
 
 * [Introduction](getting-started/introduction/README.md)
   * [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
+  * [TorqueScript](getting-started/introduction/torquescript/README.md)
+    * [Basic Syntax](getting-started/introduction/torquescript/basic-syntax.md)
+    * [Variables](getting-started/introduction/torquescript/variables.md)
 * [Getting Familiar](getting-started/getting-familiar/README.md)
   * [Getting a Copy](getting-started/getting-a-copy/README.md)
     * [Torque Project Manager](getting-started/getting-a-copy/torque-project-manager.md)
@@ -44,10 +46,6 @@
     * [Adding a Scoreboard GUI](getting-started/getting-familiar/your-first-game/adding-a-scoreboard-gui.md)
     * [Keeping the scoreboard up-to-date](getting-started/getting-familiar/your-first-game/keeping-the-scoreboard-up-to-date.md)
   * [Deep Dive: BaseGame Directory Structure](scripting/deep-dive-basegame-directory-structure.md)
-
-## Lessons
-
-* [Page 1](lessons/page-1.md)
 
 ## Knowledgebase
 
@@ -76,7 +74,6 @@
     * [Mounting Shapes](knowledgebase/art/3d-art/mounting-shapes.md)
     * [Animation](knowledgebase/art/3d-art/animation.md)
     * [Player Setup](knowledgebase/art/3d-art/player-setup.md)
-    * [Blender -> Torque3D Pipeline](knowledgebase/art/3d-art/blender-greater-than-torque3d-pipeline.md)
   * [2D Art](knowledgebase/art/2d-art/README.md)
     * [Working with Adobe Substance](knowledgebase/art/2d-art/working-with-adobe-substance.md)
 * [Assets](knowledgebase/assets/README.md)
