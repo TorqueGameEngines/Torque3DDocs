@@ -20,6 +20,8 @@
 
 * [Introduction](getting-started/introduction/README.md)
   * [What's the Torque3D Engine?](getting-started/whats-the-torque3d-engine.md)
+* [TorqueScript](getting-started/torquescript/README.md)
+  * [Basic Syntax](getting-started/torquescript/basic-syntax.md)
 * [Getting Familiar](getting-started/getting-familiar/README.md)
   * [Getting a Copy](getting-started/getting-a-copy/README.md)
     * [Torque Project Manager](getting-started/getting-a-copy/torque-project-manager.md)

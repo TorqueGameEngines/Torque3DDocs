@@ -91,7 +91,7 @@ Now we can TAB out of edit mode and go to the materials tab.&#x20;
 
 Add a new material and name it coin\_Mat
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Names of these material slots are referenced in Torque3D so it is always good practice to rename them to something relevant.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Names of these material slots are referenced in Torque3D so it is always good practice to rename them to something relevant.</p></figcaption></figure>
 
 Next set our 3D Viewport to viewport shading ![](<../../../.gitbook/assets/image (25).png>) and change our UV Editor window to the Shader Editor
 

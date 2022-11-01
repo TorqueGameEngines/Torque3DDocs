@@ -46,7 +46,7 @@ Now, we need to associate our gamemode with the level. First select the scene ob
 
 Then set the gameModeName of the scene object to `CoinCollectionGameMode`:
 
-![](<../../../.gitbook/assets/image (11) (1) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 Remember to save your level.
 
