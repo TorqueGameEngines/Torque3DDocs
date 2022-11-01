@@ -79,7 +79,7 @@ Repeat this procedure for the other side so you end up with something similar to
 
 Next Select the Faces in the UV editor for the side of our cylinder and select the top menu UV and choose Average Island Scale
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>If this does not change anything straight away, change the settings of Average Islands Scale to Non-Uniform</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>If this does not change anything straight away, change the settings of Average Islands Scale to Non-Uniform</p></figcaption></figure>
 
 Scale these UVs now to fit inside our UV Space.
 
