@@ -22,7 +22,6 @@
   * [TorqueScript](getting-started/introduction/torquescript/README.md)
     * [Basic Syntax](getting-started/introduction/torquescript/basic-syntax.md)
     * [Variables](getting-started/introduction/torquescript/variables.md)
-    * [Data Types](getting-started/introduction/torquescript/data-types.md)
 * [Getting Familiar](getting-started/getting-familiar/README.md)
   * [Getting a Copy](getting-started/getting-a-copy/README.md)
     * [Torque Project Manager](getting-started/getting-a-copy/torque-project-manager.md)

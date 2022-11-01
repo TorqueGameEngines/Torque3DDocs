@@ -3,7 +3,7 @@
 A variable is a letter, word, or phrase linked to a value stored in your game’s memory and used during operations. Creating a variable is a one line process. The following code creates a variable by naming it and assigning a value:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %localVariable = 3;
 ```
 {% endcode %}
@@ -11,7 +11,7 @@ A variable is a letter, word, or phrase linked to a value stored in your game’
 You can assign any type value to the variable you want. This is referred to as a language being type-insensitive. TorqueScript does not care (insensitive) what you put in a variable, even after you have created it. The following code is completely valid:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %localVariable = 27;
 %localVariable = "Heather";
 %localVariable = "7 7 7";
@@ -23,7 +23,7 @@ The main purpose of the code is to show that TorqueScript treats all data types 
 You will rarely need to, which is why you want to start practicing good programming habits. An important practice is proper variable naming. The following code will make a lot more sense, considering how the variables are named:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %userName = "Heather";
 %userAge = 27;
 %userScores = "7 7 7";
@@ -33,7 +33,7 @@ You will rarely need to, which is why you want to start practicing good programm
 TorqueScript is more forgiving than low level programming languages. While it expects you to obey the basic syntax rules, it will allow you to get away with small mistakes or inconsistency. The best example is variable case sensitivity. With variables, TorqueScript is not case sensitive. You can create a variable and refer to it during operations without adhering to case rules:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %userName = "Heather";
 echo(%Username);
 ```
@@ -44,7 +44,7 @@ In the above code, `%userName` and `%Username` are the same variable, even thoug
 There are two types of variables you can declare and use in TorqueScript: _local_ and _global._ Both are created and referenced similarly:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %localVariable = 1;
 $globalVariable = 2;
 ```
@@ -55,7 +55,7 @@ As you can see, local variable names are preceded by the percent sign `%`. Globa
 In programming, scoping refers to where in memory a variable exists during its life. A local variable is meant to only exist in specific blocks of code, and its value is discarded when you leave that block. Global variables are meant to exist and hold their value during your entire programs execution. Look at the following code to see an example of a local variable:
 
 {% code lineNumbers="true" %}
-```clike
+```
 function test()
 {
    %userName = "Heather";
@@ -69,7 +69,7 @@ We will cover functions a little later, but you should know that functions are b
 Most variables you will work with are local, but you will eventually want a variables that last for your entire game. These are extremely important values used throughout the project. This is when global variables become useful. For the most part, you can declare global variables whenever you want:
 
 {% code lineNumbers="true" %}
-```clike
+```
 $PlayerName = "Heather";
 
 function printPlayerName()

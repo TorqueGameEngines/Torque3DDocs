@@ -5,7 +5,7 @@
 Like other languages, TorqueScript has certain syntactical rules you need to follow. The language is very forgiving, easy to debug, and is not as strict as a low level language like C++. Observe the following line in a script:
 
 {% code lineNumbers="true" %}
-```clike
+```aspnet
 // Create test variable with a temporary variable
 %testVariable = 3;
 ```
@@ -20,7 +20,7 @@ The three most simple rules obeyed in the above code are:
 The engine will parse code line by line, stopping whenever it reaches a semi-colon. This is referred to as a statement terminator, common to other programming languages such as C++, JavaScript, etc. The following code will produce an error that may cause your entire script to fail:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %testVariable = 3
 %anotherVariable = 4;
 ```
@@ -29,7 +29,7 @@ The engine will parse code line by line, stopping whenever it reaches a semi-col
 To the human eye, you are able to discern two separate lines of code with different actions. Here is how the script compiler will read it:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %testVariable = 3%anotherVariable = 4;
 ```
 {% endcode %}
@@ -39,7 +39,7 @@ To the human eye, you are able to discern two separate lines of code with differ
 This is obviously not what the original code was meant to do. There are exemptions to this rule, but they come into play when multiple lines of code are supposed to work together for a single action:
 
 {% code lineNumbers="true" %}
-```clike
+```
 if(%testVariable == 4)
         echo("Variable equals 4");
 ```
@@ -50,7 +50,7 @@ We have not covered conditional operators or echo commands yet, but you should n
 The second rule, proper use of whitespace, is just as easy to remember. Whitespace refers to how your script code is separated between operations. Let’s look at the first example again:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %testVariable = 3;
 ```
 {% endcode %}
@@ -58,7 +58,7 @@ The second rule, proper use of whitespace, is just as easy to remember. Whitespa
 The code is storing a value `3` in a local variable `%testVariable`. It is doing so by using a common mathematical operator, the equal sign. TorqueScript recognizes the equal sign and performs the action just as expected. It does not care if there are spaces in the operation:
 
 {% code lineNumbers="true" %}
-```clike
+```
 %testVariable=3;
 ```
 {% endcode %}
@@ -66,7 +66,7 @@ The code is storing a value `3` in a local variable `%testVariable`. It is doing
 The above code works just as well, even without the spaces between the variable, the equal sign, and the `3`. The whitespace rule makes a lot more sense when combined with the semi-colon rule and multiple lines of code working together. The following will compile and run without error:
 
 {% code lineNumbers="true" %}
-```clike
+```
 if(%testVariable == 4) echo("Variable equals 4");
 ```
 {% endcode %}
@@ -78,7 +78,7 @@ The last rule is optional, but should be used as often as possible if you want t
 There are two different comment syntax styles. The first one uses the two slashes, `//`. This is used for single line comments:
 
 {% code lineNumbers="true" %}
-```clike
+```
 // This comment line will be ignored
 // This second line will also be ignored
 %testVariable = 3;
@@ -89,7 +89,7 @@ There are two different comment syntax styles. The first one uses the two slashe
 In the last example, the only line of code that will be executed has to do with `%testVariable`. If you need to comment large chunks of code, or leave a very detailed message, you can use the `/*comment*/` syntax. The `/*` starts the commenting, the `*/` ends the commenting, and anything in between will be considered a comment:
 
 {% code lineNumbers="true" %}
-```clike
+```
 /*
 While attending school, an instructor taught a mantra I still use:
 
@@ -109,7 +109,7 @@ CODE your own prototypes based on what you have learned.
 As you can see, the comment makes full use of whitespace and multiple lines. While it is important to comment what the code does, you can also use this to temporarily remove unwanted code until a better solution is found:
 
 {% code lineNumbers="true" %}
-```clike
+```
 // Why are you using multiple if statements. Why not use a switch$?
 /*
 if(%testVariable == "Mich")
