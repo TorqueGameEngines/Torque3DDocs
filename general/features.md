@@ -53,7 +53,7 @@ Torque3D provides a plugin system for physics. There is a simple built-in implem
 When you get Torque, you get everything. The entire source code is yours to modify under the permissive MIT license. The codebase is mature and extensible with a plugin system, allowing you to easily add features of your own, or from other libraries, to each project.
 
 If you're not the recompiling type, Torque provides a scripting engine using a custom C-like language called TorqueScript. You can create whole games without touching a line of C++. Check this out:\
-
+&#x20;
 
 ```clike
 $minion = new AIPlayer(Fubar) {
@@ -65,3 +65,4 @@ function Fubar::onReachDestination(%self) {
    echo("I made it! Says" SPC %self.name);
 }
 ```
+
