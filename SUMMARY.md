@@ -25,8 +25,6 @@
     * [Data Types](getting-started/introduction/torquescript/data-types.md)
     * [Operators](getting-started/introduction/torquescript/operators.md)
     * [Control Structures](getting-started/introduction/torquescript/control-structures.md)
-    * [Functions](getting-started/introduction/torquescript/functions.md)
-    * [Objects](getting-started/introduction/torquescript/objects.md)
 * [Getting Familiar](getting-started/getting-familiar/README.md)
   * [Getting a Copy](getting-started/getting-a-copy/README.md)
     * [Torque Project Manager](getting-started/getting-a-copy/torque-project-manager.md)
