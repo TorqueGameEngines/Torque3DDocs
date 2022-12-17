@@ -26,12 +26,12 @@ The Project Manager utilizes git for cloning and pulling from online repositorie
 
 You can learn more about installing each of these here:
 
-{% content-ref url="../../engine/compiling-the-engine/setup-development-environment/downloading-git.md" %}
-[downloading-git.md](../../engine/compiling-the-engine/setup-development-environment/downloading-git.md)
+{% content-ref url="../../for-programmers/compiling-the-engine/setup-development-environment/downloading-git.md" %}
+[downloading-git.md](../../for-programmers/compiling-the-engine/setup-development-environment/downloading-git.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../engine/compiling-the-engine/setup-development-environment/cmake.md" %}
-[cmake.md](../../engine/compiling-the-engine/setup-development-environment/cmake.md)
+{% content-ref url="../../for-programmers/compiling-the-engine/setup-development-environment/cmake.md" %}
+[cmake.md](../../for-programmers/compiling-the-engine/setup-development-environment/cmake.md)
 {% endcontent-ref %}
 
 Once you have these downloaded and installed, that's good enough for running the Project Manager, and you can continue below.

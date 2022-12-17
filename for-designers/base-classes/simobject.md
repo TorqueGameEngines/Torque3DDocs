@@ -1,6 +1,6 @@
 # SimObject
 
-The SimObject "Simulation Object" is the most basic class used in Torque and TorqueScript. It implements all of the functionality for an object to "exist" in both C++ and in script (in the [Console](../../engine/major-components-of-the-engine/core/console.md)).  You'd generally always subclass SimObject rather than it's superclasses `ConsoleObject` and `EngineObject`.
+The SimObject "Simulation Object" is the most basic class used in Torque and TorqueScript. It implements all of the functionality for an object to "exist" in both C++ and in script (in the [Console](../../for-programmers/major-components-of-the-engine/core/console.md)).  You'd generally always subclass SimObject rather than it's superclasses `ConsoleObject` and `EngineObject`.
 
 ![](<../../.gitbook/assets/image (3).png>)
 
