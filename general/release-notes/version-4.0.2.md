@@ -11,7 +11,6 @@
 * [Misc fixes for options and key remapping](https://github.com/TorqueGameEngines/Torque3D/pull/938) #938
 * [fix bad rtParams refrence](https://github.com/TorqueGameEngines/Torque3D/pull/937) #937
 * [rigidshape and wheeledvehicle perf work](https://github.com/TorqueGameEngines/Torque3D/pull/936) #936
-* [Approved](https://github.com/TorqueGameEngines/Torque3D/pull/936#partial-pull-merging)[lock 4.0.2 version in](https://github.com/TorqueGameEngines/Torque3D/pull/935) #935
 * [Updates the behavior and layout of the ImageAsset, MaterialAsset and ShapeAsset inspector fields](https://github.com/TorqueGameEngines/Torque3D/pull/934) #934
 * [bloom operates off of color>1.0. adjust defaults to suit](https://github.com/TorqueGameEngines/Torque3D/pull/933) #933
 * [adds a mechanism to inject additional steps into mission loading](https://github.com/TorqueGameEngines/Torque3D/pull/932) #932
