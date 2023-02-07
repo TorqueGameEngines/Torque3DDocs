@@ -82,7 +82,6 @@
 * [Shaders](for-artists/shaders.md)
 * [Lighting](for-artists/lighting.md)
 * [Audio](for-artists/audio.md)
-* [Page 1](for-artists/page-1.md)
 
 ## For Designers
 
@@ -156,7 +155,7 @@
 * [Introduction](for-programmers/introduction.md)
 * [Expanding the Engine](for-programmers/expanding-the-engine/README.md)
   * [Creating a New Object Class](for-programmers/expanding-the-engine/creating-a-new-object-class.md)
-  * [Integrating Your New Class into the Editor](for-programmers/expanding-the-engine/integrating-your-new-class-into-the-editor.md)
+  * [Exposing Object Classes to Script](for-programmers/expanding-the-engine/integrating-your-new-class-into-the-editor.md)
   * [Adding a New Library to the Engine](for-programmers/expanding-the-engine/adding-a-new-library-to-the-engine.md)
 * [Major Components of the Engine](for-programmers/major-components-of-the-engine/README.md)
   * [Core](for-programmers/major-components-of-the-engine/core/README.md)
