@@ -24,7 +24,7 @@ where:
 * `fieldName` is the name of the class' attribute variable being exposed.
 * `description` is a string that provides a brief description of the field, which will be displayed in the editors.
 
-### Example
+#### Example
 
 Let's say we want to add a modifiable field to an object class in Torque3D that exposes the object's height. The following code shows how to do this using the `addField` function:
 
@@ -60,7 +60,7 @@ where:
 * `writeFunction(optional)` is the name of a custom write function that is called whenever the value of the field is written out to a file as part of serialization.
 * `description` is a string that provides a brief description of the field, which will be displayed in the editors.
 
-### Example
+#### Example
 
 Let's say we want to add a protected field to an object class in Torque3D that represents the object's name. The following code shows how to do this using the `addProtectedField` function:
 
