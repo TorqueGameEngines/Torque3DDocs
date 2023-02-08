@@ -19,7 +19,7 @@ A `Datablock` is a type of object in Torque3D that stores data that can be share
 
 To use a `Datablock` in Torque3D, you need to create a `Datablock` object and define its properties. Then, you can reference the `Datablock` from multiple instances of a class to share its properties and behaviors.
 
-For example, let's say you have a `Player` class, it has a variable that can be used for all instances of the `Player` class. To do this, you would create a `PlayerDatablock` object, and define its properties. Then, you would reference the `PlayerDatablock` from each instance of the `Player` class to share its properties and behaviors.
+For example, let's say you have a `Player` class, it has a variable, `health`,  that can be used for all instances of the `Player` class. To use this, you would create a `PlayerDatablock` object, and define the health property. Then, you would reference the `PlayerDatablock` from each instance of the `Player` class to share its health property.
 
 ```scss
 datablock PlayerDatablock(PlayerDB)
