@@ -12,7 +12,7 @@ Torque3D provides a powerful, but fairly straightforward way to add modifiable f
 
 The `addField` function is used to define a new field for an object class, which can then be modified in the engine's editors. The basic syntax for using `addField` is as follows:
 
-```scss
+```cpp
 addField( name, type, offset(className, fieldName), description );
 ```
 
@@ -28,7 +28,7 @@ where:
 
 Let's say we want to add a modifiable field to an object class in Torque3D that exposes the object's height. The following code shows how to do this using the `addField` function:
 
-```css
+```cpp
 void MyObjectClass::initPersistFields()
 {
    Parent::initPersistFields();
@@ -55,7 +55,7 @@ In Torque3D, the `DefineEngineMethod` macro function provides a powerful tool fo
 
 The `DefineEngineMethod` macro function is used to define a new engine method for an object class, which can be called from scripts. The basic syntax for using `DefineEngineMethod` is as follows:
 
-```scss
+```cpp
 DefineEngineMethod( className, methodName, returnType, (argList), (defaultValueList), methodDescription )
 {
    // implementation of the method
@@ -75,7 +75,7 @@ where:
 
 Let's say we want to add a new engine method to an object class in Torque3D that sets the object's position. The following code shows how to do this using the `DefineEngineMethod` macro function:
 
-```perl
+```cpp
 void MyObjectClass::setPosition(const float& x, const float& y, const float& z)
 {
    mPosition = Point3F(x, y, z);
@@ -92,7 +92,7 @@ In this example, we are adding a new engine method `setPosition` to the `MyObjec
 {% hint style="info" %}
 It's important to note that while we have default values for each argument here, any and all default values are optional. If no default values are defined, then the enclosing parentheses are removed, like so:
 
-```
+```cpp
 DefineEngineMethod( MyObjectClass, dump, void, (),, "Dumps info about the object to the console" )
 {
     object->dump();
@@ -105,14 +105,14 @@ The parentheses for the arg list are required, but the empty default values list
 {% hint style="info" %}
 If using an Object Class for an argument type, the default must be defined as:
 
-```
+```cpp
 nullAsType<MyObjectClass*>()
 ```
 {% endhint %}
 
 Below is an example of it being called in a script:
 
-```
+```clike
 %obj = new MyObjectClass();
 %obj.setPosition(5, 10, 3);
 ```
