@@ -31,7 +31,7 @@ And then drag in the `Datablock` called "coin" (inside `data/CoinCollection/data
 The Coins will show up in the Scene Tree, group them inside a `SimGroup` called `Coins`, right click the level object and select `Add SimGroup`:\
 ![](<../../../.gitbook/assets/image (10) (1).png>)\
 And then just drag-and-drop the `StaticShape` objects into that folder:\
-![](<../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 A `SimGroup` is a collection of objects. If you delete a `Simgroup` all objects inside it will be deleted as well.
 

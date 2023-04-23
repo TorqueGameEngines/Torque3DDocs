@@ -23,7 +23,7 @@ Next save your preferences and close the preferences window.&#x20;
 
 After this head to the render tab and setup the render settings as follows&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Note for baking textures we do not need a high sample count. It rarely effects the quality of the texture.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Note for baking textures we do not need a high sample count. It rarely effects the quality of the texture.</p></figcaption></figure>
 
 Clear your scene and save this file in your Modules Shapes folder (if a shapes folder does not exist yet create one )
 
@@ -45,7 +45,7 @@ Next press TAB to enter edit mode, switch to face edit by pressing 3 or selectin
 
 <figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-Next switch to edge edit mode ![](../../../.gitbook/assets/image.png) and press Alt and select anywhere in the edge left by deleting those face. Press Ctrl + F and select Grid Fill.
+Next switch to edge edit mode ![](<../../../.gitbook/assets/image (1).png>) and press Alt and select anywhere in the edge left by deleting those face. Press Ctrl + F and select Grid Fill.
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Doing this gives us nice Quad geometry for these faces.</p></figcaption></figure>
 
@@ -61,7 +61,7 @@ Next navigate to the top corner and drag over a new window and open up the UV Ed
 
 You should see a similar layout to this.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Press the Y axis on the view gizmo so we are looking straight down the Y Axis ![](<../../../.gitbook/assets/image (31).png>)
 
@@ -91,7 +91,7 @@ Now we can TAB out of edit mode and go to the materials tab.&#x20;
 
 Add a new material and name it coin\_Mat
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Names of these material slots are referenced in Torque3D so it is always good practice to rename them to something relevant.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Names of these material slots are referenced in Torque3D so it is always good practice to rename them to something relevant.</p></figcaption></figure>
 
 Next set our 3D Viewport to viewport shading ![](<../../../.gitbook/assets/image (25).png>) and change our UV Editor window to the Shader Editor
 

@@ -40,7 +40,7 @@ GUI Clients can make working with git significantly easier than doing it all by 
 
 Acquirable [here](https://tortoisegit.org/download/) tortisegit is powerful due to a simple interface that can integrate into the Windows shell. Meaning that you can do git actions directly from the RMB shell menu, like so:
 
-![](<../../../.gitbook/assets/image (4) (2).png>)
+![](<../../../.gitbook/assets/image (4) (2) (1).png>)
 
 This can drastically improve iteration time.
 
