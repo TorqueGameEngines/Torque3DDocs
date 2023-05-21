@@ -80,7 +80,7 @@ function moveStop(%val) {
 In the example above, we first create an instance of the ActionMap class called `moveMap`. Then, we define commands using the `bindCmd` function, which associates the commands with specific input events. The `bindCmd` function takes the following parameters: the device (e.g., keyboard), the input event (e.g., "w" for pressing the 'W' key), and the command associated with the key press, and key release.
 
 {% hint style="info" %}
-Important terminology: When a key is pressed down, it is "made", and when i t is released, it is "broken". Handling the make and break states give more full control over your game inputs.
+Important terminology: When a key is pressed down, it is "made", and when it is released, it is "broken". Handling the make and break states give more full control over your game inputs.
 {% endhint %}
 
 Next, we add additional keybinds using the `bind` function. In this case, we bind the arrow keys to the corresponding movement actions.

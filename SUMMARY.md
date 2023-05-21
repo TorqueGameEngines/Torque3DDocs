@@ -122,7 +122,7 @@
   * [Objects](for-designers/ai/objects.md)
   * [Scripting](for-designers/ai/scripting.md)
 * [Inputs](for-designers/inputs/README.md)
-  * [Inputs and Keybinds](for-designers/inputs/inputs-and-keybinds/README.md)
+  * [Inputs and Keybinds](for-designers/inputs/inputs-and-keybinds.md)
     * [ActionMap](for-designers/inputs/inputs-and-keybinds/actionmap.md)
     * [Bind Functions](for-designers/inputs/inputs-and-keybinds/bind-functions.md)
     * [ActionMap Stack](for-designers/inputs/inputs-and-keybinds/actionmap-stack.md)
