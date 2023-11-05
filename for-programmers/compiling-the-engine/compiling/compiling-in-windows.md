@@ -4,6 +4,12 @@ To compile your project, open up the solution, right-click the INSTALL project, 
 
 The INSTALL project not only compiles the engine, but also installs the BaseGame template files in your project.
 
+
+
+{% hint style="info" %}
+Note, post 4.0.3 the CMake generation stepp will automatically install the template files for you, so you don't need to run the INSTALL project first. You can instead just compile the application project itself.
+{% endhint %}
+
 ![](../../../.gitbook/assets/install\_compile.png)
 
 The engine executable will be generated in the project's game folder (i.e. My Projects/\<project name>/game/\<project name>.exe).

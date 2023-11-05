@@ -14,6 +14,10 @@ The build may take some time, so go and frolic in the outdoors or something whil
 
 You can run make install to copy the template files from the template you specified into your project's folder.
 
+{% hint style="info" %}
+Note, post 4.0.3 the CMake generation stepp will automatically install the template files for you, so you don't need to run the INSTALL project first. You can instead just compile the application project itself.
+{% endhint %}
+
 ### Build Using Code::Blocks (with cmakeGui) <a href="#toc16" id="toc16"></a>
 
 [https://www.youtube.com/watch?v=ISbuSTgTQKI](https://www.youtube.com/watch?v=ISbuSTgTQKI)
@@ -51,7 +55,7 @@ CMake Error at CMakeLists.txt:6 (message):
 * MenuBar -> Build -> Run CMake
 * After this we have qtCreator configured for build
 * If you have some problem, it's very important to delete CMakeLists.txt.user file on Torque3D root path.
-* You need to use INSTALL project for copy Template files
+* You need to use INSTALL project for copy Template files. Note: post-4.0.3 the CMake generation will install the template files your you, so you can just use the application project itself.
 * Go to Project view
 * On Build Steps, Make: Ninja -> click Details
 * You see a list of projects you can add to build
