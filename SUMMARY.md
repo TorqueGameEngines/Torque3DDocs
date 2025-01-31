@@ -163,6 +163,7 @@
     * [Compiling in MacOS](for-programmers/compiling-the-engine/compiling/compiling-in-macos.md)
   * [Building the Project Manager](for-programmers/compiling-the-engine/building-the-project-manager.md)
 * [Introduction](for-programmers/introduction.md)
+* [Code Style Guidelines](for-programmers/code-style-guidelines.md)
 * [Expanding the Engine](for-programmers/expanding-the-engine/README.md)
   * [Creating a New Object Class](for-programmers/expanding-the-engine/creating-a-new-object-class.md)
   * [Exposing Object Classes to Script](for-programmers/expanding-the-engine/integrating-your-new-class-into-the-editor/README.md)
