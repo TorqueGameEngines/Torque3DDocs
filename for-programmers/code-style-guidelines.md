@@ -18,7 +18,7 @@ The standard order for the parts of a code file is as follows:
 
 All files must begin with a File Header Comment that contains the copyright and licensing information. The format for this header is as follows:
 
-```
+```cpp
 //-----------------------------------------------------------------------------
 // Copyright (c) 2012 GarageGames, LLC
 //
@@ -46,7 +46,7 @@ All files must begin with a File Header Comment that contains the copyright and 
 
 To prevent recursive inclusion, all header files (filename.h) have an #ifndef directive immediately following the File Header Comment, and a corresponding #endif directive as the last line of the header file. The following example shows the proper format and nomenclature for a header file called `BaseClass.h`
 
-```
+```cpp
 #ifndef _BASECLASS_H_
 #define _BASECLASS_H_
  
@@ -69,7 +69,7 @@ You should never use Tab characters in any code file. Tab spacing is dependent o
 
 Brackets should be matched in the same column. Example:
 
-```
+```cpp
 if ( flag )
 {
    for ( int i=0; i<10; i++ )
@@ -88,7 +88,7 @@ All indentation should align itself along one of the tab stops (columns 4, 7, 10
 
 Single line statements after a `for`, `if`, or `while` statement must be on their own lines. It makes it much easier to trace and debug when you can tell if the statement was executed.
 
-```
+```cpp
 if ( obscureCondition == true )  obscureVar += strangeVar; // breakpoint this?
 if ( obscureCondition == true )
     ObscureVar += strangeVar;                              // breakpoint here!
@@ -112,7 +112,7 @@ Avoid using global variables. Global variables are too easy to be changed unwitt
 
 Do not use intrinsic types. All of the variable types have been replaced to allow for cross-platform compiling.
 
-```
+```cpp
 Use    Don't use
 F32    float
 F64    double
@@ -125,14 +125,14 @@ U16    unsigned short
 
 Global variables are prefixed with lower case g:
 
-```
+```cpp
 gConsole->printf();
 gManager = NULL;
 ```
 
 Class member variables of non-data classes are prefixed with lower case m:
 
-```
+```cpp
 const char * mObjectName;
 S32 mType;
  
@@ -145,7 +145,7 @@ class Point3F
 
 Static member variables should be prefixed with lower case sm:
 
-```
+```cpp
 static S32 SomeClass::smObjectCount;
 ```
 
@@ -153,21 +153,21 @@ Use only the prefix characters defined here. Do not make up your own prefixes to
 
 All non-constant variables are in [lower CamelCase](http://en.wikipedia.org/wiki/CamelCase) (starts with a lowercase letter and the first letter of all subsequent words in the variable name are capitalized — `thisIsInLowerCamelCase`). Do not use underscores `_` to separate words in variable names. Local variables do not require a prefix but must start with a lower case letter.
 
-```
+```cpp
 S32   mMemberVariable;   // good member variable
 F32   volumeLevel;       // good local variable
 ```
 
 All constant variables should be entirely uppercase letters. Words in the variable are separated by underscores `_`.
 
-```
+```cpp
 #define   MAX_FILE_SIZE 256
 const S32 MAX_ELEMENT_COUNT = 128;
 ```
 
 The preferred method of declaring constant variables is to use const declarations. If `#define` macros are used, a type identifier should accompany the value. This is to prevent ambiguous interpretation of the constant type. Example:
 
-```
+```cpp
 #define   MAX_POWER_LEVEL   10.0f
 #define   NUM_POWER_LEVELS ((S32) 5)
 ```
@@ -178,7 +178,7 @@ Avoid the use of `#define` macros that perform a function. The preferred method 
 
 Member function names are in lowerCamelCase.
 
-```
+```cpp
 void MyClass::myMethodForThisClass()
 {
 }
@@ -186,7 +186,7 @@ void MyClass::myMethodForThisClass()
 
 Non-member functions can be either local or global in scope. A function that is used only within a given file should be declared as a static function so that it has a local scope. A function used outside the file should be declared as extern in the header file and should have the first letter of it's name capitalized to distinguish it from local functions.
 
-```
+```cpp
 // good name for a global function
 Time GetCurrentTime()
 {
