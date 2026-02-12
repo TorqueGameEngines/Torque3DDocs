@@ -10,8 +10,7 @@ As part of Torque 3D, you receive full access to 100% of our engine source code.
 \
 To understand the basics of how the engine is setup and the tools available, a short reference is included below. Further sections in the documentation explain these tools in more depth.
 
-\
-
+<br>
 
 ### Minimum System Requirements
 
@@ -19,8 +18,7 @@ To understand the basics of how the engine is setup and the tools available, a s
 **Processor:** 1.6 GHz Processor or better\
 **Memory:** 3GB RAM\
 **Graphics:** DirectX 11+ or  OpenGL 4.3 supported\
-**Hard Drive:** 3GB free disk space (less for binary only solutions)\
-
+**Hard Drive:** 3GB free disk space (less for binary only solutions)<br>
 
 ### The Engine
 
@@ -32,8 +30,7 @@ For example, if you wish to add MYSQL database functionality or integrate the Ha
 \
 Do not be intimidated. This documentation will show you how to create games without touching the source code at all. There is no need to start working with the engine's C++ code until you feel comfortable. In the meantime, you can get going with Torque 3D right away!
 
-\
-
+<br>
 
 ### Project Manager
 
@@ -48,8 +45,7 @@ One important part of the Project Manager is to Add or download Torque modules, 
 \
 This allows you to create new projects based on Templates and Modules, which may also come in the form of Genre Kits. From inside the Project Manager, you can launch the demos that can be downloaded with the engine. The Project Manager also provides a direct link to access the documentation included with the engine.
 
-\
-
+<br>
 
 ### TorqueScript
 
@@ -61,8 +57,7 @@ Another benefit of using TorqueScript, as opposed to editing the engine's underl
 \
 There are several TorqueScript [articles](https://web.archive.org/web/20200216204338/http://docs.garagegames.com/torque-3d/official/content/documentation/Scripting/Overview/Introduction.html) for new developers that will help you learn the syntax, functionality, and how to use the language with the engine and editors.
 
-\
-
+<br>
 
 ### Editors
 
@@ -74,8 +69,7 @@ Learning to work with Torque 3D editors is a large part of your initial experien
 \
 **GUI Editor** - GUI stands for **G**raphical **U**ser **I**nterface. Some examples of GUIs include: splash screens, your main menu, options dialogs and in game Heads Up Displays ("HUDs"). With the GUI Editor, you can design and create your menus, player inventory system, health bars, loading screens, and so on.
 
-\
-
+<br>
 
 ### The Asset Pipeline
 
@@ -84,8 +78,7 @@ You would not have much of a game without models, textures, and other art assets
 \
 For those of you familiar with previous Torque engines, you can still import DTS (static models) and DSQ (animation data) files for your 3D objects. This includes static shapes, players, buildings, and props. If you already have a library of DTS and DSQs, feel free to use them in Torque 3D. From this point on however we recommend you transition to the new formats for new art assets going forward.
 
-\
-
+<br>
 
 ### Conclusion
 

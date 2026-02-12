@@ -6,7 +6,7 @@ Animation threads allow multiple sequences to play at the same time on a single 
 
 * If two non-blend sequences control the same node, the sequence with higher priority will animate it.
 * If two non-blend sequences with the same priority control the same node, the thread that was created last will animate it.
-* [Blend](https://web.archive.org/web/20200207192111fw\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/torque\_art\_primer.html#ANIM\_BLENDS) sequences are applied on top of any previous thread, so if two blend sequences control the same node, _both_ will animate it (applied in order of increasing priority, or thread creation order if priority is the same).
+* [Blend](https://web.archive.org/web/20200207192111fw_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/torque_art_primer.html#ANIM_BLENDS) sequences are applied on top of any previous thread, so if two blend sequences control the same node, _both_ will animate it (applied in order of increasing priority, or thread creation order if priority is the same).
 
 Threads can be initiated from script as follows:
 
@@ -20,8 +20,7 @@ Threads can be initiated from script as follows:
 * [Setting up threads in T3D Shape Editor](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/World%20Editor/Editors/ShapeEditor.html)
 
 \
-\
-
+<br>
 
 #### Ground Transforms
 
@@ -34,8 +33,7 @@ The exact details of how to export ground transforms will depend on the modeling
 * [Setting up ground transforms in Milkshape3D](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Exporters/ms2dtsplus.html)
 
 \
-\
-
+<br>
 
 #### Triggers
 
@@ -49,44 +47,37 @@ For example, you could have one trigger for each foot of a character that create
 * [Setting up sequence triggers in T3D Shape Editor](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/World%20Editor/Editors/ShapeEditor.html)
 
 \
-\
-
+<br>
 
 #### Blends
 
 Blend animations allow additive animation on the node structure of the shape. These will not conflict with other threads, and can be played on top of the node animation contained in other threads; such animations are relative. Blends only store the **changes** that occur over the course of the animation and not the absolute position of the nodes. This means that if a node is transformed by a blend animation, it includes only the transform information for that node, and it will add that transformation on top of the existing position in the base shape. Common uses for blend animations are facial expressions, head turning or nodding, and arm aiming.
 
-\
-
+<br>
 
 Bear in mind that a blend can be played as a normal sequence, or it can be played on top of other sequences. When another sequence is playing, it will alter the root position, and the blend will be applied on top of that.
 
-\
-
+<br>
 
 If you try to do a blend sequence where the root position is different than the 'normal' root (in the default root animation), you might expect that the blend will blend it to the new root (the position the character is positioned in during the blend animation). However, it does not work this way. Since nothing would actually be animating, it doesn't move the bones to the new position. What is contained in the blend sequence is only transform offsets from the blend sequence root position.
 
-\
-
+<br>
 
 It is not a good idea to have a different root position in your 'normal' animations and your blends, as they can easily get out of sync.
 
-\
-
+<br>
 
 The values added from the blend animation are based on the root position in the DAE/DTS/DSQ file. This root position does not have to be the beginning of the animation. You can pick any position for the blend animation to reference.
 
-\
-
+<br>
 
 This is useful, because you can have a blend animation that can have a reference position that is the 'root' position. For animation like hip twists and arm movements (as in the 'look' animation), the character can be in a natural default state. In this way, you can have one animation control the character through the base pose to an extreme in either direction while referencing the default 'base' state, which will exist somewhere in the middle of the blend animation.
 
-\
-
+<br>
 
 **See also**
 
 * [Setting up blends in Milkshape3D](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Exporters/ms2dtsplus.html)
 * [Setting up blends in T3D Shape Editor](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/World%20Editor/Editors/ShapeEditor.html)
 
-\
+<br>

@@ -6,22 +6,17 @@ IFL (image file list) and UV keyframed animations are deprecated in Torque 3D, b
 
 **UV animation**
 
-Simple UV animations can be achieved using the Rotate, Scroll and Wave animation features of Torque 3D Materials. The best place to experiment with these settings is in the [Material Editor](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/World%20Editor/Editors/MaterialEditor.html).
+Simple UV animations can be achieved using the Rotate, Scroll and Wave animation features of Torque 3D Materials. The best place to experiment with these settings is in the [Material Editor](../../for-designers/editors/world-editor/material-editor.md).
 
-\
-
-
-| ![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/mat\_anim\_rot.gif)  | ![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/mat\_anim\_scroll.gif)      |   |   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - | - |
-| UV Rotate                                                                                                                                                                 | UV Scroll                                                                                                                                                                        |   |   |
-| ![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/mat\_anim\_wave.gif) | ![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/mat\_anim\_wave\_scale.gif) |   |   |
-| UV Wave (Scroll)                                                                                                                                                          | UV Wave (Scale)                                                                                                                                                                  |   |   |
+|                           UV Rotate                           |                              UV Scroll                              |                         UV Wave (Scroll)                        |                                UV Wave (Scale)                               |
+| :-----------------------------------------------------------: | :-----------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| ![mat\_anim\_rot.gif](../../.gitbook/assets/mat_anim_rot.gif) | ![mat\_anim\_scroll.gif](../../.gitbook/assets/mat_anim_scroll.gif) | ![mat\_anim\_wave.gif](../../.gitbook/assets/mat_anim_wave.gif) | ![mat\_anim\_wave\_scale.gif](../../.gitbook/assets/mat_anim_wave_scale.gif) |
 
 **Image Sequence animation**
 
-Earlier Torque engines used IFL text files to specify a set of images with an optional number of frames to display each image. In Torque 3D, a similar effect can be achieved by putting all of the frames into a single texture, then setting the _sequenceFramePerSec_ and _sequenceSegmentSize_ fields of the Material (either manually, or via the [Material Editor](https://web.archive.org/web/20200207192111/http://docs.garagegames.com/torque-3d/official/content/documentation/World%20Editor/Editors/MaterialEditor.html)). For example, a 6-frame sequence, each frame sized 128x128 would be packed into a single texture of size 768x128.
+Earlier Torque engines used IFL text files to specify a set of images with an optional number of frames to display each image. In Torque 3D, a similar effect can be achieved by putting all of the frames into a single texture, then setting the _sequenceFramePerSec_ and _sequenceSegmentSize_ fields of the Material (either manually, or via the [Material Editor](../../for-designers/editors/world-editor/material-editor.md)). For example, a 6-frame sequence, each frame sized 128x128 would be packed into a single texture of size 768x128.
 
-![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/image\_sequence.png)
+![](../../.gitbook/assets/image_sequence.png)
 
 The Material definition to display each frame for 1 second is shown below:
 
@@ -34,7 +29,7 @@ singleton Material(
 };
 ```
 
-![](https://web.archive.org/web/20200207192111im\_/http://docs.garagegames.com/torque-3d/official/content/documentation/Artist%20Guide/Primer/images/mat\_anim\_image\_seq.gif)
+![](../../.gitbook/assets/mat_anim_image_seq.gif)
 
 There are two options available when UV mapping the model prior to export; neither work with tiled UVs.
 
